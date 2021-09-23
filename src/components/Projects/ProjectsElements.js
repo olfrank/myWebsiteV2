@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import img from '../../images/lake.JPG';
-//import img from '../../images/norway.jpg';
 
 
 

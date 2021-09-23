@@ -1,12 +1,11 @@
 import React, { useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Icon1 from '../../images/crypto-cats.png'
+import Icon1 from '../../images/funkyFelines.png'
 import Icon2 from '../../images/dex.png'
 import Icon3 from '../../images/coin-tracker.png'
 import { CgWebsite } from 'react-icons/cg';
 import { FaGithub } from 'react-icons/fa';
-//import Backdrop from '../../images/blue-brush.png'
 
 import { ProjectsContainer, 
          ProjectsCard,  

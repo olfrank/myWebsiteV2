@@ -1,6 +1,6 @@
 import React, { useState} from "react";
 import '../pages/contact.css';
-import Video from "../video/Stars.mp4";
+import Video from "../video/StarsBg.mp4";
 import Footer from '../components/Footer';
 import '../App.css';
 
