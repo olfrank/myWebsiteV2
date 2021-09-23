@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from "./pages";
+import ContactPage from './pages/ContactForm';
+import CVPage from './pages/CVPage';
+import {CSSTransition, TransitionGroup} from 'react-transition-group';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Route render={({location}) =>(
+        <TransitionGroup>
+        <CSSTransition key={location.key} timeout={500} classNames="fade">
+          <Switch location={location}>
+            <Route path="/" component={Home} exact />
+            <Route path="/contact" component={ContactPage} exact />
+            <Route path="/cv" component={CVPage} exact />
+          </Switch>
+        </CSSTransition>
+      </TransitionGroup>
+
+      )} />
+      </Router>
+      
+      
+    
   );
 }
 

@@ -1,0 +1,211 @@
+import styled from 'styled-components';
+import img from '../../images/lake.JPG';
+//import img from '../../images/norway.jpg';
+
+
+
+export const ProjectsContainer = styled.div`
+    height: 1100px;
+    // width: 100%;
+    // height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FF9C55;
+    
+    //background-image: linear-gradient(#FF9C55, #FFD913);
+    //#101606;
+    background-image: url(${img});
+    background-attachment: fixed;
+    background-size: cover;
+    // -o-object-fit: cover;
+    // object-fit: cover;
+    
+    @media screen and(max-width: 768px){
+        height: 1100px;
+    }
+
+    @media screen and(max-width: 480px){
+        height: 1300px;
+    }
+`;
+
+
+export const ProjectsH1 = styled.h1`
+    font-size: 4rem;
+    color: #f1dfad;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    text-shadow: 4px 4px 9px black;
+
+    @media (max-width: 480px){
+        font-size: 2rem;
+    }
+`;
+
+export const ProjectsSub = styled.h3`
+    color: #222;
+    font-size: 1.5rem;
+    margin-bottom: 90px;
+    margin-top: 10px;
+`;
+
+export const ProjectsWrapper = styled.div`
+    // max-width: 1000px;
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 20px;
+    padding: 0 0px;
+
+    @media screen and(max-width: 1000px){
+        grid-template-column: 1fr 1fr;
+    }
+
+    @media screen and(max-width: 768px){
+        grid-template-column: 1fr;
+        padding: 0, 20px;
+    }
+`;
+export const ProjectCardWrapper = styled.div`
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+    }
+`;
+
+
+export const ProjectsCard = styled.div`
+    background: rgb(58, 58, 58, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    max-height: 600px;
+    padding: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    position:relative;
+    
+    margin-bottom: 300px;
+    text-decoration: none;
+    
+`;
+
+export const ProjectsIcon = styled.img`
+    height: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+    object-fit: cover;
+    border-radius: 9px;
+`;
+
+export const LanguagesP = styled.p`
+    font-size: 1rem;
+    color: #fff;
+    padding: 20px;
+    
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: 800;
+    background-color: #1ec11b3d;
+    
+`;
+
+export const ProjectsH2 = styled.h2`
+    font-size: 1.5rem;
+    position: relative;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-weight: 900;
+    color: #fff;
+`;
+
+
+export const GitLogoLink = styled.a`
+    font-size: 40px;
+    color: #FFD913;
+    margin-top: 10px;
+`;
+export const WebsiteLink = styled.a`
+    font-size: 40px;
+    color: #FF9C55;
+`;
+export const Details = styled.div`
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #000;
+    font-weight: 900;
+
+    
+`;
+
+export const Modal = styled.div`
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    z-index: 1000;
+    transition: 0.3s;
+`;
+
+export const ModalContainer = styled.div`
+    position: relative;
+    background-color: #272626;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    border: 3px solid hsl(176, 80%, 35%);
+`;
+
+export const ModalItem = styled.div`
+    display: flex;
+    align-items: center;
+`;
+export const ModalContent = styled.div`
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+`;
+
+export const ModalHeader = styled.div`
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.25rem;
+    color: #fff;
+`;
+export const ModalItemInfo = styled.p`
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: #fff;
+`;
+export const ModalTitleSection = styled.div`
+    display: flex;
+    padding: 0 0 0 24rem;
+`;
+export const ModalTitle = styled.div`
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+
+`;
+
