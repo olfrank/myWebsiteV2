@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 // import { Swiper, SwiperSlide } from 'swiper/react';
 import {Swiper, SwiperSlide} from 'swiper/react';
 
-import { CertificatesContainer, CertificatesH1, CertificatesSub } from './CertificatesElements'
+
+import { CertificatesContainer, CertificatesH1, CertificatesSub, CertificateChoiceWrapper, BlockSwitch, OtherSwitch, Icon1, Icon2 } from './CertificatesElements'
 
 import 'swiper/swiper.min.css';
 import 'swiper/components/pagination/pagination.min.css';
@@ -10,6 +11,8 @@ import 'swiper/components/effect-coverflow/effect-coverflow.min.css';
 
 import SwiperCore, { Pagination, EffectCoverflow } from 'swiper';
 
+import uni from '../../allCertificates/uni.jpg'
+import dofe from '../../allCertificates/dofe.JPG'
 import cert1 from '../../allCertificates/cert01.png';
 import cert2 from '../../allCertificates/cert02.png';
 import cert3 from '../../allCertificates/cert03.png';
@@ -29,10 +32,36 @@ import cert15 from '../../allCertificates/cert-15.png';
 SwiperCore.use([Pagination, EffectCoverflow]);
 
 const Certificates = () => {
+    const [block, setBlock] = useState(false);
+    const [other, setOther] = useState(true);
+
+    const blockSwitch = () => {
+        setBlock(true)
+        setOther(false)
+    }
+
+    const otherSwitch = () => {
+        setBlock(false)
+        setOther(true)
+    }
+
+
     return (
         <CertificatesContainer id="certificates">
             <CertificatesH1>certificates</CertificatesH1>
             <CertificatesSub>online courses</CertificatesSub>
+            <CertificateChoiceWrapper>
+                <BlockSwitch onClick={blockSwitch}>
+                    <Icon1/> Blockchain
+                </BlockSwitch>
+                <OtherSwitch onClick={otherSwitch}>
+                    <Icon2 /> Other
+                </OtherSwitch>
+                
+            </CertificateChoiceWrapper>
+
+
+            { block ?
             <Swiper className="pagination-color"
             grabCursor="true"
             effect={"coverflow"}
@@ -96,8 +125,36 @@ const Certificates = () => {
                 <SwiperSlide> 
                     <img src={cert15} alt="certificate" className="certificate-img"/>
                 </SwiperSlide>
-                <br/>
             </Swiper>
+            : null}
+
+            {other ? 
+            <Swiper className="pagination-color"
+            grabCursor="true"
+            effect={"coverflow"}
+            centeredSlides={true}
+            slidesPerView={2}
+            loop={false}
+            coverflowEffect={{
+                rotate: 5,
+                stretch: 20,
+                depth: 75,
+                modifier: 6,
+                slideShadows: false,
+            }}
+            pagination={{
+                clickable: true, 
+                type: "fraction",
+            }} >
+                <SwiperSlide> 
+                    <img src={uni} alt="certificate" className="certificate-img2"/>
+                </SwiperSlide>
+                <SwiperSlide> 
+                    <img src={dofe} alt="certificate" className="certificate-img2"/>
+                </SwiperSlide>
+            </Swiper>
+        : null}
+        
         </CertificatesContainer>
     )
 }

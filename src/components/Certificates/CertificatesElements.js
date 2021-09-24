@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import {GoChecklist} from 'react-icons/go';
+import {BiCube} from 'react-icons/bi';
 
 export const CertificatesContainer = styled.div`
     height: 1100px;
@@ -27,3 +29,51 @@ export const CertificatesSub = styled.h3`
     text-align: center;
     margin-bottom: 30px;
 `;
+
+export const CertificateChoiceWrapper = styled.div`
+
+position: relative;
+align-items: center;
+display:flex;
+`;
+
+export const BlockSwitch = styled.button`
+font-size: 2rem;
+color: hsl(176, 80%, 35%);;
+margin-right: 15rem;
+border: none;
+background: rgba(49, 48, 48, 0);
+&:hover{
+    color: #FFD913;
+}
+&.active{
+    color: blue;
+}
+`;
+
+export const OtherSwitch = styled.button`
+font-size: 2rem;
+color: hsl(176, 80%, 35%);;
+margin-left: 10rem;
+border: none;
+background: rgba(49, 48, 48, 0);
+
+
+    &:hover{
+        color: #FFD913;
+    }
+    &.active{
+        color: #FFD913;
+    }
+`;
+
+export const Icon1 = styled(BiCube)`
+font-size: 2rem;
+// color: orange;
+`;
+
+export const Icon2 = styled(GoChecklist)`
+font-size: 2rem;
+// color: orange;
+`;
+
