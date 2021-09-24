@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import '../App.css';
 import Footer from '../components/Footer';
-import CVPicture from '../images/cv.png';
-import CVpdf from '../images/cv.pdf';
+import CVPicture from '../image/cv.png';
+import CVpdf from '../image/cv.pdf';
 import {CVPageWrapper,
         ViewCVButton,
         Header, 

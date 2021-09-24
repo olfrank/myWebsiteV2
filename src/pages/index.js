@@ -4,7 +4,8 @@ import Sidebar from '../components/Sidebar';
 import {useState} from 'react';
 import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
-import { homeObjOne, homeObjTwo } from '../components/InfoSection/Data';
+import Education from '../components/Education'
+// import { homeObjOne, homeObjTwo } from '../components/InfoSection/Data';
 import Projects from '../components/Projects';
 import Footer from '../components/Footer';
 import '../App.css';
@@ -24,9 +25,9 @@ const Home = () => {
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle}/>
             <HeroSection />
-            <InfoSection {...homeObjOne}/>
+            <InfoSection/>
             <Projects />
-            <InfoSection {...homeObjTwo}/>
+            <Education/>
             <Certificates />
             <Footer />
             

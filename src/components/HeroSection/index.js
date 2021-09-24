@@ -2,7 +2,7 @@ import React from 'react'
 import {useState} from 'react';
 import Typist from 'react-typist';
 // import { FaLockOpen } from 'react-icons/fa';
-import Video from "../../videos/yellowBg.mp4";
+import Video from '../../video/yellowBg.mp4';
 
 import { 
     HeroContainer, 

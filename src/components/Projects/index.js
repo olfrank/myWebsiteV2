@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import AOS from 'aos';
-import 'aos/dist/aos.css';
-import Icon1 from '../../images/funkyFelines.png'
-import Icon2 from '../../images/dex.png'
-import Icon3 from '../../images/coin-tracker.png'
+// import '../Education/node_modules/aos/dist/aos.css';
+import Icon1 from '../../image/funkyFelines.png'
+import Icon2 from '../../image/dex.png'
+import Icon3 from '../../image/coin-tracker.png'
 import { CgWebsite } from 'react-icons/cg';
 import { FaGithub } from 'react-icons/fa';
 

@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
-export const InfoContainer = styled.div`
+export const EducationContainer = styled.div`
     color: #fff;
-    background: #101522;
+    background: #d1d6a1;
     @media screen and (max-width: 768px){
         padding:100px 0;
     }
 `;
-// #f9f9f9   #101522
-export const InfoWrapper = styled.div`
+
+export const EducationWrapper = styled.div`
     display: grid;
     z-index: 1;
     height: 1100px;
@@ -20,7 +20,7 @@ export const InfoWrapper = styled.div`
     justify-content: center;
 `;
 
-export const InfoRow = styled.div`
+export const EducationRow = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
@@ -64,7 +64,7 @@ export const Heading = styled.h1`
     font-size: 35px;
     line-height: 1.1;
     font-weight: 600;
-    color: #f7f8fa;
+    color: #010606;
     
 
     @media screen and (max-width: 480px){
@@ -79,8 +79,9 @@ export const Subtitle = styled.p`
     font-size: 1.3rem;
     line-height: 1.7;
     font-weight: 800;
-    color: #fff;
+    color: #010606;
 `;
+
 
 
 export const ImgWrap = styled.div`

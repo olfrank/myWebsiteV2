@@ -7,6 +7,7 @@ import CVPage from './pages/CVPage';
 import {CSSTransition, TransitionGroup} from 'react-transition-group';
 
 function App() {
+
   return (
     <Router>
       <Route render={({location}) =>(

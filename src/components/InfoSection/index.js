@@ -1,7 +1,11 @@
 import React from 'react';
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import '../Education/node_modules/aos/dist/aos.css';
 //import { Button } from '../ButtonElement'
+import LottieAnimation from '../../Lottie'
+import aboutme from '../../animation/about-me.json'
+// import img2 from '../../svg/Succes/Succes.svg'
+
 import {InfoContainer, 
         InfoWrapper, 
         InfoRow, 
@@ -10,13 +14,12 @@ import {InfoContainer,
         TextWrapper, 
         TopLine, 
         Subtitle, 
-        Heading, 
-        //BtnWrap, 
+        Heading,  
         ImgWrap, 
-        Img
+        // Img
     } from './InfoElements';
 
-const InfoSection = ({lightBg, imgStart, topLine, lightText, darkText, description, description2, description3, img, alt, id, headline, headline2}) => {
+const InfoSection = () => {
     AOS.init({
         duration: 700,
         offset: 200,
@@ -25,18 +28,23 @@ const InfoSection = ({lightBg, imgStart, topLine, lightText, darkText, descripti
     
     return (
         <React.Fragment>
-            <InfoContainer lightBg={lightBg} id={id} >
+            <InfoContainer id="about">
 
                 <InfoWrapper>
-                    <InfoRow imgStart={imgStart}>
+                    <InfoRow >
                         <Column1>
                         <TextWrapper>
-                            <TopLine data-aos="flip-up">{topLine}</TopLine>
-                            <Heading data-aos="flip-up" lightText={lightText}>{headline}</Heading>
-                            <Heading data-aos="flip-up" lightText={lightText}>{headline2}</Heading>
-                            <Subtitle data-aos="flip-up" darkText={darkText}>{description}</Subtitle>
-                            <Subtitle data-aos="flip-up" darkText={darkText}>{description2}</Subtitle>
-                            <Subtitle data-aos="flip-up" darkText={darkText}>{description3}</Subtitle>
+                            <TopLine data-aos="flip-up">about me...</TopLine>
+
+                            <Heading data-aos="flip-up" >I am Ollie, a Solidity/Web3 developer from London 
+                                                         with a growing obsession for blockchain technology 
+                                                         and its potential.</Heading>
+
+                            <Subtitle data-aos="flip-up" >After coming across blockchain in 2020, an insatiable 
+                                                          curiosity and interest began to develop. Ever since I 
+                                                          have been eager to be a part of the industry and contribute 
+                                                          to its growth.</Subtitle>
+                            
                             {/* <BtnWrap>
                                 <Button 
                                 data-aos="flip-up"
@@ -55,7 +63,8 @@ const InfoSection = ({lightBg, imgStart, topLine, lightText, darkText, descripti
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img data-aos="flip-up" src={img} alt={alt} />
+                                <LottieAnimation lotti={aboutme} />
+                                {/* <Img data-aos="flip-up" src={img2}/> */}
                             </ImgWrap>
                         </Column2>
                     </InfoRow>
