@@ -84,7 +84,12 @@ export const Button = styled.button`
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    
+
+    @media screen and (max-width: 800px){
+        font-size: 15px;
+        width: 5rem;
+        height: 2rem;
+    }
 
     &:hover{
         background-image:     linear-gradient(
@@ -112,6 +117,8 @@ export const Button = styled.button`
          background-position:20vw;
        }
 
+       
+
 `;
 
 export const ResetBtn = styled.button`
@@ -134,7 +141,7 @@ export const ResetBtn = styled.button`
 `;
 
 export const Header = styled.h1`
-    font-size: 84px;
+    font-size: 5rem;
     text-align: center;
     color: #e0c695;
     position: relative;
@@ -148,7 +155,10 @@ export const Header = styled.h1`
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     text-shadow: 0px 0px 10px #fff;
-                 
+
+    @media screen and (max-width: 800px){
+        font-size: 3rem;
+    }
 
     @keyframes floating {
         0% { transform: translate(0,  0px); }
@@ -169,6 +179,10 @@ export const ArrowDown = styled(BsArrowDownShort)`
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     text-shadow: 0px 0px 10px #fff;
+
+    @media screen and (max-width: 800px){
+        font-size: 50px;
+    }
 
     @keyframes floating {
         0% { transform: translate(0,  0px); }

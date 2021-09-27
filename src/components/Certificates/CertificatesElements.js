@@ -43,11 +43,10 @@ color: hsl(176, 80%, 35%);;
 margin-right: 15rem;
 border: none;
 background: rgba(49, 48, 48, 0);
+transition: all 0.2s ease-in-out;
 &:hover{
     color: #FFD913;
-}
-&.active{
-    color: blue;
+    transform: scale(1.1);
 }
 `;
 
@@ -57,14 +56,11 @@ color: hsl(176, 80%, 35%);;
 margin-left: 10rem;
 border: none;
 background: rgba(49, 48, 48, 0);
-
-
-    &:hover{
-        color: #FFD913;
-    }
-    &.active{
-        color: #FFD913;
-    }
+transition: all 0.2s ease-in-out;
+&:hover{
+    color: #FFD913;
+    transform: scale(1.1);
+}
 `;
 
 export const Icon1 = styled(BiCube)`
