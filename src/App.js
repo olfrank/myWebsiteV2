@@ -10,7 +10,7 @@ function App() {
 
   return (
     <Router>
-      <Route exact path ="/" render={({location}) =>(
+      <Route render={({location}) =>(
         <TransitionGroup>
         <CSSTransition key={location.key} timeout={500} classNames="fade">
           <Switch location={location}>
