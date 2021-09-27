@@ -9,7 +9,7 @@ import {CSSTransition, TransitionGroup} from 'react-transition-group';
 function App() {
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Route render={({location}) =>(
         <TransitionGroup>
         <CSSTransition key={location.key} timeout={500} classNames="fade">
