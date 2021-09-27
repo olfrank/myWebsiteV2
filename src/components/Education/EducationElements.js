@@ -86,7 +86,10 @@ export const Subtitle = styled.p`
 
 export const ImgWrap = styled.div`
     max-width: 555px;
-    hieght: 100%;
+    height: 100%;
+    position: relative;
+    top: -100px;
+
 
 `;
 
