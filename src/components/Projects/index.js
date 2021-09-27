@@ -159,7 +159,7 @@ const Projects = () => {
                             <ModalItem className="modal-item">
                                 <i className="uil uil-check-circle soft-icon-check"></i>
                                 <ModalItemInfo className="modal-item-description">
-                                    DNA mixing algorithm (written in solidity) to randomly mix the mother and farthers genes
+                                    DNA mixing algorithm (written in solidity) to randomly mix the mother and farther's genes
                                 </ModalItemInfo>
                             </ModalItem>
                             <ModalItem className="modal-item">

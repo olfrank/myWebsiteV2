@@ -12,7 +12,7 @@ import 'swiper/components/effect-coverflow/effect-coverflow.min.css';
 import SwiperCore, { Pagination, EffectCoverflow } from 'swiper';
 
 import uni from '../../allCertificates/uni.jpg'
-import dofe from '../../allCertificates/dofe.JPG'
+import dofe from '../../allCertificates/dofe.jpg'
 import cert1 from '../../allCertificates/cert01.png';
 import cert2 from '../../allCertificates/cert02.png';
 import cert3 from '../../allCertificates/cert03.png';
@@ -32,8 +32,8 @@ import cert15 from '../../allCertificates/cert-15.png';
 SwiperCore.use([Pagination, EffectCoverflow]);
 
 const Certificates = () => {
-    const [block, setBlock] = useState(false);
-    const [other, setOther] = useState(true);
+    const [block, setBlock] = useState(true);
+    const [other, setOther] = useState(false);
 
     const blockSwitch = () => {
         setBlock(true)

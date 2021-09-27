@@ -37,7 +37,7 @@ const InfoSection = () => {
                             <TopLine data-aos="flip-up">about me...</TopLine>
 
                             <Heading data-aos="flip-up" >I am Ollie, a Solidity/Web3 developer from London 
-                                                         with a growing obsession for blockchain technology 
+                                                         with a growing fascination for blockchain technology 
                                                          and its potential.</Heading>
 
                             <Subtitle data-aos="flip-up" >After coming across blockchain in 2020, an insatiable 
