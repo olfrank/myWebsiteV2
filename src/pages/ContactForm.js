@@ -41,7 +41,7 @@ const ContactForm = () =>{
 
 
 
-  /******** Node.js email server (Github Pages does not support server side technology so i opted for EmailJS instead)******** */
+  /******** js to connect server.js (Node.js) to ContactForm page (Github Pages does not support server side technology so i opted for EmailJS instead)******** */
     // const [status, setStatus] = useState("Submit");
     // const handleSubmit = async (e) => {
     //     e.preventDefault();
@@ -73,12 +73,14 @@ const ContactForm = () =>{
         <BackHome to="/">
           <BackArrow  />
         </BackHome>
+        
         <Header>contact me</Header>
         <ArrowDown/>
         
             <HeroBg>
                 <VideoBg autoPlay loop muted src={Video} type= "video/mp4" />
             </HeroBg>
+            
           <div className="container">
             
             <form className="form" onSubmit={sendEmail}>

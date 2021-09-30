@@ -80,7 +80,7 @@ const Projects = () => {
                             <GitLogoLink href="https://github.com/olfrank/Funky_Felines_DApp">
                                 <FaGithub />
                             </GitLogoLink>
-                            <WebsiteLink href="">
+                            <WebsiteLink href="https://olfrank.github.io/Funky_Felines_DApp/client/index.html">
                                 <CgWebsite />
                             </WebsiteLink>
                         </ProjectsCard>
@@ -97,7 +97,7 @@ const Projects = () => {
                             <GitLogoLink href="https://github.com/olfrank/new_Dex_Dapp">
                                 <FaGithub />
                             </GitLogoLink>
-                            <WebsiteLink href="">
+                            <WebsiteLink href="https://olfrank.github.io/new_Dex_Dapp/client/index.html">
                                 <CgWebsite />
                             </WebsiteLink>
                         </ProjectsCard>
@@ -115,7 +115,7 @@ const Projects = () => {
                             <GitLogoLink href="https://github.com/olfrank/coin-exchange">
                                 <FaGithub />
                             </GitLogoLink>
-                            <WebsiteLink href="">
+                            <WebsiteLink href="https://olfrank.github.io/coin-exchange/">
                                 <CgWebsite />
                             </WebsiteLink>
                         </ProjectsCard>

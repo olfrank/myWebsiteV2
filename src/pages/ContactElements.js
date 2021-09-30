@@ -246,3 +246,4 @@ export const BackArrow = styled(TiArrowLeftThick)`
         color: #1FC11B;
     }
 `;
+

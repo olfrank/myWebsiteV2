@@ -108,17 +108,17 @@ const CVPage = () => {
                 Each cat has a DNA string that is directly correlated to its colors and attributes. The DApp features a breeding algorithm 
                 that randomly mixes the DNA from both the mother and father to produce a unique kitten. 
                 <Link href="https://github.com/olfrank/Funky_Felines_DApp">Code </Link> 
-                <Link href=""> DApp</Link> </li>
+                <Link href="https://olfrank.github.io/Funky_Felines_DApp/client/index.html"> DApp</Link> </li>
 
             <li><mark>DEX (DApp):</mark> Is a rudimentary decentralised exchange whereby you can trade ETH for ERC20 tokens and visa versa. 
                 You can trade crypto assets through either market or limit orders, as well as view open orders via the orderbook. 
                 <Link href="https://github.com/olfrank/new_Dex_Dapp">Code </Link> 
-                <Link href=""> DApp</Link></li>
+                <Link href="https://olfrank.github.io/new_Dex_Dapp/client/index.html"> DApp</Link></li>
             
             <li><mark>Coin Tracker:</mark> Using an API to fetch live data from coin paprika, you can view the top 10 crypto's current price. 
                 The website also features a mock account balance which can be used to purchase the assets listed. 
                 <Link href="https://github.com/olfrank/coin-exchange">Code </Link> 
-                <Link href=""> Website</Link> </li>
+                <Link href="https://olfrank.github.io/coin-exchange/"> Website</Link> </li>
             
             <li> (Currently working on a multisig wallet DApp)</li>
             												
