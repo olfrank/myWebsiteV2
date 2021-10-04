@@ -80,9 +80,9 @@ const CVPage = () => {
             <Subheading>SKILLS</Subheading>
                 <Subheading2>Technical Skills</Subheading2>
                 <Hard>
-                    <li><mark>Languages:</mark> Solidity (8/10), JavaScript (8/10), HTML5 (9/10), CSS3 (9/10)</li>
-                    <li><mark>Frameworks:</mark> Truffle (8/10), OpenZeppelin (8/10)</li>
-                    <li><mark>Tools and Libraries:</mark> React.js (7/10), Web3.js (8/10), jQuery (7/10), Ganache, GitHub, Bootstrap</li>
+                    <li><mark>Languages:</mark> Solidity, JavaScript, HTML5, CSS3</li>
+                    <li><mark>Frameworks:</mark> Truffle, OpenZeppelin</li>
+                    <li><mark>Tools and Libraries:</mark> React.js, Web3.js, jQuery, Ganache, GitHub, Bootstrap</li>
                 </Hard>
                 <Subheading2>Other Skills</Subheading2>
                 <Soft>
