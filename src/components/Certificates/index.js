@@ -14,21 +14,22 @@ import SwiperCore, { Pagination, EffectCoverflow } from 'swiper';
 import uni from '../../allCertificates/uni.jpg';
 import dofe from '../../allCertificates/dofe.jpg';
 
-import cert1 from '../../allCertificates/cert01.png';
-import cert2 from '../../allCertificates/cert02.png';
-import cert3 from '../../allCertificates/cert03.png';
-import cert4 from '../../allCertificates/cert04.png';
-import cert5 from '../../allCertificates/cert05.png';
-import cert6 from '../../allCertificates/cert06.png';
-import cert7 from '../../allCertificates/cert07.png';
-import cert8 from '../../allCertificates/cert08.png';
-import cert9 from '../../allCertificates/cert09.png';
-import cert10 from '../../allCertificates/cert-10.png';
-import cert11 from '../../allCertificates/cert-11.png';
-import cert12 from '../../allCertificates/cert-12.png';
-import cert13 from '../../allCertificates/cert-13.png';
-import cert14 from '../../allCertificates/cert-14.png';
-import cert15 from '../../allCertificates/cert-15.png';
+
+import cert1 from '../../allCertificates/cert02.png';
+import cert2 from '../../allCertificates/cert08.png';
+import cert3 from '../../allCertificates/cert-12.png';
+import cert4 from '../../allCertificates/cert05.png';
+import cert5 from '../../allCertificates/cert03.png';
+import cert6 from '../../allCertificates/cert01.png';
+import cert7 from '../../allCertificates/cert-13.png';
+import cert8 from '../../allCertificates/cert-10.png';
+import cert9 from '../../allCertificates/cert-14.png';
+import cert10 from '../../allCertificates/cert-11.png';
+import cert11 from '../../allCertificates/cert09.png';
+import cert12 from '../../allCertificates/cert-15.png';
+import cert13 from '../../allCertificates/cert07.png';
+import cert14 from '../../allCertificates/cert06.png';
+import cert15 from '../../allCertificates/cert04.png';
 
 SwiperCore.use([Pagination, EffectCoverflow]);
 
