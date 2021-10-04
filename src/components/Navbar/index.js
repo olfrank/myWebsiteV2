@@ -36,16 +36,16 @@ const Navbar = ({toggle}) => {
            </MobileIcon>
            <NavMenu>
              <NavItem>
-               <NavLinks to="about" smooth={true} duration={600} spy={true} exact='true' offset={-80}>about</NavLinks>
+               <NavLinks to="about" smooth={true} duration={1500} spy={true} exact='true' offset={-80}>about</NavLinks>
              </NavItem>
              <NavItem>
-               <NavLinks to="projects" smooth={true} duration={600} spy={true} exact='true' offset={-80} >projects</NavLinks>
+               <NavLinks to="projects" smooth={true} duration={1500} spy={true} exact='true' offset={-80} >projects</NavLinks>
              </NavItem>
              <NavItem>
-               <NavLinks to="education" smooth={true} duration={600} spy={true} exact='true' offset={-80}>education</NavLinks>
+               <NavLinks to="education" smooth={true} duration={1500} spy={true} exact='true' offset={-80}>education</NavLinks>
              </NavItem>
              <NavItem>
-               <NavLinks to="certificates" smooth={true} duration={600} spy={true} exact='true' offset={-80}>certificates</NavLinks>
+               <NavLinks to="certificates" smooth={true} duration={1500} spy={true} exact='true' offset={-80}>certificates</NavLinks>
              </NavItem>
            </NavMenu>
            <NavBtn>

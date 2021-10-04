@@ -65,18 +65,42 @@ export const SocialIcons = styled.div`
 export const SocialIconLinkFa = styled.a`
     color: #FF5555;
     font-size: 40px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        transform: scale(1.2);
+        transition: all 0.2s ease-in-out;
+    }
 `;
 export const SocialIconLinkTw = styled.a`
     color: #FFD913;
     font-size: 40px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        transform: scale(1.2);
+        transition: all 0.2s ease-in-out;
+    }
 `;
 export const SocialIconLinkLi = styled.a`
     color: #1FC11B;
     font-size: 40px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        transform: scale(1.2);
+        transition: all 0.2s ease-in-out;
+    }
 `;
 export const SocialIconLinkGi = styled.a`
     color: #FF9C55;
     font-size: 40px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        transform: scale(1.2);
+        transition: all 0.2s ease-in-out;
+    }
 `;
 
 export const WebsiteRights = styled.small`

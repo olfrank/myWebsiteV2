@@ -39,8 +39,8 @@ const Education = () => {
                             <Heading data-aos="flip-up" >BSc Geography, University of Reading.</Heading>
                             <Heading data-aos="flip-up" >Ivan on Tech Blockchain Academy (15 Courses)</Heading>
                             <Subtitle data-aos="flip-up" ><mark>Languages:</mark>   JavaScript, Solidity, HTML5, CSS3</Subtitle>
-                            <Subtitle data-aos="flip-up" ><mark>Frameworks:</mark>  Truffle</Subtitle>
-                            <Subtitle data-aos="flip-up" ><mark>Tools & Libraries:</mark>   React.js, jQuery, Web3.js, Ganache, OpenZeppelin, Github, Bootstrap</Subtitle>
+                            <Subtitle data-aos="flip-up" ><mark>Frameworks:</mark>  Truffle, OpenZeppelin</Subtitle>
+                            <Subtitle data-aos="flip-up" ><mark>Tools & Libraries:</mark>   React.js, jQuery, Web3.js, Ganache, Github, Bootstrap</Subtitle>
                             {/* <BtnWrap>
                                 <Button 
                                 data-aos="flip-up"

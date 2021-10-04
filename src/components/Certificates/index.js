@@ -11,8 +11,9 @@ import 'swiper/components/effect-coverflow/effect-coverflow.min.css';
 
 import SwiperCore, { Pagination, EffectCoverflow } from 'swiper';
 
-import uni from '../../allCertificates/uni.jpg'
-import dofe from '../../allCertificates/dofe.jpg'
+import uni from '../../allCertificates/uni.jpg';
+import dofe from '../../allCertificates/dofe.jpg';
+
 import cert1 from '../../allCertificates/cert01.png';
 import cert2 from '../../allCertificates/cert02.png';
 import cert3 from '../../allCertificates/cert03.png';
@@ -49,7 +50,7 @@ const Certificates = () => {
     return (
         <CertificatesContainer id="certificates">
             <CertificatesH1>certificates</CertificatesH1>
-            <CertificatesSub>online courses</CertificatesSub>
+            <CertificatesSub></CertificatesSub>
             <CertificateChoiceWrapper>
                 <BlockSwitch onClick={blockSwitch}>
                     <Icon1/> Blockchain

@@ -209,7 +209,6 @@ export const ButtonWrapper = styled.div`
     justify-content: center;
     border: none;
     border-radius: 10px;
-    background: #222;
     color: #fff;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -218,8 +217,8 @@ export const ButtonWrapper = styled.div`
 export const DownloadButton = styled.button`
     border: none;
     border-radius: 10px;
-    background: #fff;
-    color: #444;
+    background: #555;
+    color: #fff;
     padding: 15px;
     cursor: pointer;
     font-size: 1rem;
@@ -227,10 +226,10 @@ export const DownloadButton = styled.button`
     
 
     &:hover{
-        background: #444;
-        color: #fff;
-        box-shadow: 0px 0px 10px 5px rgba(231, 236, 236, 0.856);
-        //box-shadow: 0px 0px 10px 5px rgba(233, 127, 95, 0.856);
+        background: #fff;
+        color: #555;
+        box-shadow: 0px 0px 10px 5px rgba(104, 124, 81, 0.911);
+        
         
     }
 
@@ -250,13 +249,14 @@ export const ViewCVButton = styled.button`
     &:hover{
         background: #fff;
         color: #000;
-        box-shadow: 0px 0px 10px 5px rgba(231, 236, 236, 0.856);
-        //box-shadow: 0px 0px 10px 5px rgba(233, 127, 95, 0.856);
+        box-shadow: 0px 0px 10px 5px rgba(104, 124, 81, 0.911);
+        
 
     }
     
 `;
 export const ViewCVButtonWrapper = styled.div`
-
+    position: relative;
+    display: flex;
 `;
 

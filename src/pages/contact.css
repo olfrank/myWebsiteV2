@@ -71,7 +71,9 @@ margin-bottom: 0;
 top: 10%;
 position: relative;
 font-weight: 900;
+
 }
+
 @media screen and (max-width: 800px){
   .form{
     

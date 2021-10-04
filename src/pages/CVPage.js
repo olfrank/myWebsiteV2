@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import '../App.css';
 import Footer from '../components/Footer';
-import CVPicture from '../image/cv.png';
-import CVpdf from '../image/cv.pdf';
+import CVPicture from '../image/newCV.png';
+import CVpdf from '../image/newCV.pdf';
+
 import {CVPageWrapper,
         ViewCVButton,
         Header, 
@@ -50,6 +51,13 @@ const CVPage = () => {
         <ViewCVButtonWrapper>
             <ViewCVButton onClick={resumeSwitch}>View CV (word document format)</ViewCVButton>
         </ViewCVButtonWrapper>
+        <ButtonWrapper>
+            <DownloadButton className="modal-button">
+                <a download="" href={CVpdf} class="button-pdf">
+                    Download CV (pdf)<i className="uil uil-download-alt"></i>
+                </a>
+            </DownloadButton>
+        </ButtonWrapper>
             
         <Header>
             <Title>Oliver Francis</Title>
@@ -68,21 +76,13 @@ const CVPage = () => {
         </PStatementWrapper>
 
         <EducationWrapper>
-        <Subheading>EDUCATION</Subheading>
-            <Education>
-                    <li><mark>University of Reading (2016-2019):</mark> 2.1 Bachelor of Science in Geography (Human and Physical). </li>
-                    <li><mark>Dissertation:</mark> Nuclear Power’s Part in Sustainable UK Energy Security and Potential Implications Post-Brexit</li>
-                    <li><mark>Gordon’s School (2009-2016)</mark></li>
-                    <li>GCSE: 2-A’s, 6-B’s, 1-C’s  </li>
-                    <li>A level:  3-B's</li>								
-            </Education>
-            <Skills>
+        <Skills>
             <Subheading>SKILLS</Subheading>
                 <Subheading2>Technical Skills</Subheading2>
                 <Hard>
-                    <li><mark>Languages:</mark> Solidity, JavaScript, HTML5, CSS3</li>
-                    <li><mark>Frameworks:</mark> Truffle</li>
-                    <li><mark>Tools and Libraries:</mark> React.js, Web3.js, jQuery, Ganache, OpenZeppelin, GitHub, Bootstrap</li>
+                    <li><mark>Languages:</mark> Solidity (8/10), JavaScript (8/10), HTML5 (9/10), CSS3 (9/10)</li>
+                    <li><mark>Frameworks:</mark> Truffle (8/10), OpenZeppelin (8/10)</li>
+                    <li><mark>Tools and Libraries:</mark> React.js (7/10), Web3.js (8/10), jQuery (7/10), Ganache, GitHub, Bootstrap</li>
                 </Hard>
                 <Subheading2>Other Skills</Subheading2>
                 <Soft>
@@ -96,6 +96,15 @@ const CVPage = () => {
                     <li>Creativity and design, as shown in my projects </li>
                 </Soft>
             </Skills>
+        <Subheading>EDUCATION</Subheading>
+            <Education>
+                    <li><mark>University of Reading (2016-2019):</mark> 2.1 Bachelor of Science in Geography (Human and Physical). </li>
+                    <li><mark>Dissertation:</mark> Nuclear Power’s Part in Sustainable UK Energy Security and Potential Implications Post-Brexit</li>
+                    <li><mark>Gordon’s School (2009-2016)</mark></li>
+                    <li>GCSE: 2-A’s, 6-B’s, 1-C’s  </li>
+                    <li>A level:  3-B's</li>								
+            </Education>
+            
         </EducationWrapper>
 
         <ProjectsWrapper>
@@ -165,7 +174,9 @@ const CVPage = () => {
             										
             </Extracurricular>
         </ExtracurricularWrapper>
-
+        <ViewCVButtonWrapper>
+            <ViewCVButton onClick={resumeSwitch}>View CV (word document format)</ViewCVButton>
+        </ViewCVButtonWrapper>
         </CVPageWrapper>
         {resume ?
         <ModalCVWrapper className="modal-resume">

@@ -133,13 +133,31 @@ export const ProjectsH2 = styled.h2`
 
 
 export const GitLogoLink = styled.a`
-    font-size: 40px;
+    font-size: 45px;
     color: #FFD913;
-    margin-top: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+        color: #FF5555;
+        transition: all 0.2s ease-in-out;
+    }
 `;
+
 export const WebsiteLink = styled.a`
-    font-size: 40px;
+    font-size: 45px;
     color: #FF9C55;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+        color: #FF5555;
+        transition: all 0.2s ease-in-out;
+    }
+
 `;
 export const Details = styled.div`
     padding: 10px;
