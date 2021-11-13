@@ -56,7 +56,7 @@ export const ProjectsSub = styled.h3`
 export const BlockSwitch = styled.button`
     font-size: 2rem;
     color: #e2c9ad;
-    //margin-right: 15rem;
+    
     border: none;
     background: rgba(49, 48, 48, 0);
     transition: all 0.2s ease-in-out;
@@ -73,11 +73,11 @@ export const BlockSwitch = styled.button`
 export const OtherSwitch = styled.button`
     font-size: 2rem;
     color: #e2c9ad;
-    // margin-left: 10rem;
-    // margin-right:0;
+    
     border: none;
     background: rgba(49, 48, 48, 0);
     transition: all 0.2s ease-in-out;
+    margin-bottom: 20px; 
     &:hover{
         color: #1FC11B;
         transform: scale(1.1);
@@ -152,6 +152,8 @@ export const ProjectsIcon = styled.img`
     margin-bottom: 30px;
     object-fit: cover;
     border-radius: 9px;
+    position: relative;
+    z-index: 1;
 `;
 
 export const ProjectsIconWIP = styled.img`
@@ -172,7 +174,8 @@ export const LanguagesP = styled.p`
     border-radius: 5px;
     margin-top: 15px;
     font-weight: 800;
-    background-color: #1ec11b3d;
+//    background-color: #1ec11b3d;
+    background-color: #9171a04f;
     
 `;
 
@@ -188,7 +191,7 @@ export const ProjectsH2 = styled.h2`
 
 export const GitLogoLink = styled.a`
     font-size: 45px;
-    color: #FFD913;
+    color: #88b377;
     margin-top: 5px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
@@ -202,7 +205,8 @@ export const GitLogoLink = styled.a`
 
 export const WebsiteLink = styled.a`
     font-size: 45px;
-    color: #FF9C55;
+    //color: #FF9C55;
+    color: #9171a0d6;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 
@@ -217,7 +221,7 @@ export const Details = styled.div`
     padding: 10px;
     border: none;
     border-radius: 10px;
-    background: #000;
+    background: #2e2e2e;
     font-weight: 900;
 
     
@@ -240,10 +244,10 @@ export const Modal = styled.div`
 
 export const ModalContainer = styled.div`
     position: relative;
-    background-color: #272626;
+    background-color: #2e2e2e;
     border-radius: 0.5rem;
     padding: 1.5rem;
-    border: 3px solid hsl(176, 80%, 35%);
+    border: 3px solid #88b377;
 `;
 
 export const ModalItem = styled.div`

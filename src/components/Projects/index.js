@@ -118,7 +118,7 @@ const Projects = () => {
             <ProjectsContainer id = 'projects' >
                  
                 <ProjectsH1>projects</ProjectsH1>
-                <ProjectsSub>more on my github</ProjectsSub>
+                <ProjectsSub>(more on my github)</ProjectsSub>
                 <BlockSwitch onClick={blockSwitch} isActive={active}>
                     <Icon1 />completed
                 </BlockSwitch>
@@ -134,7 +134,7 @@ const Projects = () => {
                             <Details className="project-switch" onClick={showModal1}>Details <i className="uil uil-eye switch-icon"></i>  </Details>
                             
                             <LanguagesP>
-                                <b>JavaScript, Solidity, Truffle, HTML5, CSS3, jQuery, Web3.js</b>
+                                <b>JavaScript, Solidity, Truffle, HTML, CSS, jQuery, Web3.js</b>
                             </LanguagesP>
                             <GitLogoLink href="https://github.com/olfrank/Funky_Felines_DApp">
                                 <FaGithub />
@@ -151,7 +151,7 @@ const Projects = () => {
                             <Details className="project-switch" onClick={showModal2}>Details <i className="uil uil-eye switch-icon"></i>  </Details>
                             
                             <LanguagesP>
-                                <b>JavaScript, Solidity, Truffle, HTML5, CSS3, jQuery, Web3.js</b>
+                                <b>JavaScript, Solidity, Truffle, HTML, CSS, jQuery, Web3.js</b>
                             </LanguagesP>
                             <GitLogoLink href="https://github.com/olfrank/new_Dex_Dapp">
                                 <FaGithub />
@@ -168,7 +168,7 @@ const Projects = () => {
                             <Details className="project-switch" onClick={showModal3}>Details <i className="uil uil-eye switch-icon"></i>  </Details>
                             
                             <LanguagesP>
-                                <b> JavaScript, HTML5, React.js </b>
+                                <b> JavaScript, HTML, React.js </b>
 
                             </LanguagesP>
                             <GitLogoLink href="https://github.com/olfrank/coin-exchange">
@@ -221,7 +221,7 @@ const Projects = () => {
                         <Details className="project-switch" onClick={showModal6}>Details <i className="uil uil-eye switch-icon"></i>  </Details>
 
                         <LanguagesP>
-                            <b> Solidity, TypeScript, Hardhat </b>
+                            <b> Solidity, Hardhat, TypeScript </b>
 
                         </LanguagesP>
                         <GitLogoLink href="https://github.com/olfrank/Rock_Paper_Scissors">
@@ -429,7 +429,7 @@ const Projects = () => {
                             <ModalItem className="modal-item">
                                 <i className="uil uil-check-circle soft-icon-check"></i>
                                 <ModalItemInfo className="modal-item-description">
-                                    Unit tests are being written using Truffle testing framework
+                                    Unit tests are being written using Truffle framework
                                 </ModalItemInfo>
                             </ModalItem>
                             <ModalItem className="modal-item">

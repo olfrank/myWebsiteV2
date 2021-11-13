@@ -80,6 +80,16 @@ export const Subtitle = styled.p`
     line-height: 1.7;
     font-weight: 800;
     color: #010606;
+    transition: all 0.2s ease-in-out;
+    padding: 10px;
+
+    &:hover{
+        border-radius: 20px;
+        border: none;
+        //padding: 10px;
+        transform: scale(1.1);
+        box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    }
 `;
 
 
