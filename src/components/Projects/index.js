@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
 import AOS from 'aos';
 // import '../Education/node_modules/aos/dist/aos.css';
-import Icon1 from '../../image/funkyFelines.png'
-import Icon2 from '../../image/dex.png'
-import Icon3 from '../../image/coin-tracker.png'
+import Img1 from '../../image/funkyFelines.png'
+import Img2 from '../../image/dex.png'
+import Img3 from '../../image/coin-tracker.png'
+import Img4 from '../../image/multisig.png'
+import Img5 from '../../image/carrotFarm.png'
+import Img6 from '../../image/rps.png'
 import { CgWebsite } from 'react-icons/cg';
 import { FaGithub } from 'react-icons/fa';
 
@@ -12,7 +15,12 @@ import { ProjectsContainer,
          ProjectsH1,
          ProjectsSub, 
          ProjectsH2, 
-         ProjectsIcon,  
+         BlockSwitch,
+         OtherSwitch,
+         Icon1,
+         Icon2,
+         ProjectsIcon,
+         ProjectsIconWIP,  
          LanguagesP,
          GitLogoLink,
          WebsiteLink,
@@ -32,6 +40,12 @@ const Projects = () => {
     const [modal1, setModal1] = useState(false);
     const [modal2, setModal2] = useState(false);
     const [modal3, setModal3] = useState(false);
+    const [modal4, setModal4] = useState(false);
+    const [modal5, setModal5] = useState(false);
+    const [modal6, setModal6] = useState(false);
+
+    const [block, setBlock] = useState(true);
+    const [other, setOther] = useState(false);
 
     const showModal1 = () => {
         setModal1(true);
@@ -54,6 +68,38 @@ const Projects = () => {
         setModal3(false);
     }
 
+    const showModal4 = ()=>{
+        setModal4(true);
+    }
+    const hideModal4 = () => {
+        setModal4(false);
+    }
+
+    const showModal5 = ()=>{
+        setModal5(true);
+    }
+    const hideModal5 = () => {
+        setModal5(false);
+    }
+
+    const showModal6 = ()=>{
+        setModal6(true);
+    }
+    const hideModal6 = () => {
+        setModal6(false);
+    }
+
+
+    const blockSwitch = () => {
+        setBlock(true)
+        setOther(false)
+    }
+
+    const otherSwitch = () => {
+        setBlock(false)
+        setOther(true)
+    }
+
 
 
     AOS.init({
@@ -66,11 +112,17 @@ const Projects = () => {
                  
                 <ProjectsH1>projects</ProjectsH1>
                 <ProjectsSub>more on my github</ProjectsSub>
-                
+                <BlockSwitch onClick={blockSwitch}>
+                    <Icon1 />completed
+                </BlockSwitch>
+                <OtherSwitch onClick={otherSwitch}>
+                    <Icon2/>work in progress 
+                </OtherSwitch>
+                { block ?
                 <ProjectsWrapper >
                     <ProjectCardWrapper>
                         <ProjectsCard  data-aos="zoom-out-right" className="project-card">
-                            <ProjectsIcon src={Icon1}/>
+                            <ProjectsIcon src={Img1}/>
                             <ProjectsH2>Funky Felines</ProjectsH2>
                             <Details className="project-switch" onClick={showModal1}>Details <i className="uil uil-eye switch-icon"></i>  </Details>
                             
@@ -87,7 +139,7 @@ const Projects = () => {
                     </ProjectCardWrapper>
                     <ProjectCardWrapper>
                         <ProjectsCard  data-aos="zoom-out-up" >
-                            <ProjectsIcon src={Icon2}/>
+                            <ProjectsIcon src={Img2}/>
                             <ProjectsH2>DEX DApp</ProjectsH2>
                             <Details className="project-switch" onClick={showModal2}>Details <i className="uil uil-eye switch-icon"></i>  </Details>
                             
@@ -104,7 +156,7 @@ const Projects = () => {
                     </ProjectCardWrapper>
                     <ProjectCardWrapper>
                         <ProjectsCard data-aos="zoom-out-left">
-                            <ProjectsIcon src={Icon3}/>
+                            <ProjectsIcon src={Img3}/>
                             <ProjectsH2>Coin Price Tracker</ProjectsH2>
                             <Details className="project-switch" onClick={showModal3}>Details <i className="uil uil-eye switch-icon"></i>  </Details>
                             
@@ -121,7 +173,60 @@ const Projects = () => {
                         </ProjectsCard>
                     </ProjectCardWrapper>
                 </ProjectsWrapper>
-                {modal1 ?
+                : null}
+
+            {other ? 
+            <ProjectsWrapper >
+                <ProjectCardWrapper>
+                    <ProjectsCard  data-aos="zoom-out-right" className="project-card">
+                        <ProjectsIconWIP src={Img4}/>
+                        <ProjectsH2>Multi-Signature Wallet</ProjectsH2>
+                        <Details className="project-switch" onClick={showModal4}>Details <i className="uil uil-eye switch-icon"></i>  </Details>
+
+                        <LanguagesP>
+                            <b>Solidity, Truffle </b>
+                        </LanguagesP>
+                        <GitLogoLink href="https://github.com/olfrank/MultiSig_Wallet">
+                            <FaGithub />
+                        </GitLogoLink>
+
+                    </ProjectsCard>
+                </ProjectCardWrapper>
+                <ProjectCardWrapper>
+                    <ProjectsCard  data-aos="zoom-out-up" >
+                        <ProjectsIconWIP src={Img5}/>
+                        <ProjectsH2>Carrot Farm</ProjectsH2>
+                        <Details className="project-switch" onClick={showModal5}>Details <i className="uil uil-eye switch-icon"></i>  </Details>
+
+                        <LanguagesP>
+                            <b> Solidity, Hardhat, TypeScript </b>
+                        </LanguagesP>
+                        <GitLogoLink href="https://github.com/olfrank/Yield_Farm_DApp_">
+                            <FaGithub />
+                        </GitLogoLink>
+
+                    </ProjectsCard>
+                </ProjectCardWrapper>
+                <ProjectCardWrapper>
+                    <ProjectsCard data-aos="zoom-out-left">
+                        <ProjectsIconWIP src={Img6}/>
+                        <ProjectsH2>Rock Paper Scissors</ProjectsH2>
+                        <Details className="project-switch" onClick={showModal6}>Details <i className="uil uil-eye switch-icon"></i>  </Details>
+
+                        <LanguagesP>
+                            <b> Solidity, TypeScript, Hardhat </b>
+
+                        </LanguagesP>
+                        <GitLogoLink href="https://github.com/olfrank/Rock_Paper_Scissors">
+                            <FaGithub />
+                        </GitLogoLink>
+
+                    </ProjectsCard>
+                </ProjectCardWrapper>
+            </ProjectsWrapper>
+            : null}
+            
+            { modal1 ?
                 <Modal className="modal">
                     <ModalContainer className="modal-container">
                         <ModalHeader className="modal-header">
@@ -165,7 +270,7 @@ const Projects = () => {
                             <ModalItem className="modal-item">
                                 <i className="uil uil-check-circle soft-icon-check"></i>
                                 <ModalItemInfo className="modal-item-description">
-                                    Will continually improve the UI/UX in the future 
+                                    Will continue to improve the UI/UX in the future 
                                 </ModalItemInfo>
                             </ModalItem>
                         </ModalContent>
@@ -290,6 +395,164 @@ const Projects = () => {
                 </ModalContainer>
             </Modal>
             : null}
+            
+            { modal4 ?
+                <Modal className="modal">
+                    <ModalContainer className="modal-container">
+                        <ModalHeader className="modal-header">
+                            <ModalTitleSection className="modal-title-section">
+                                <i className="uil uil-code-branch modal-logo"></i>
+                                <ModalTitle className="modal-title">Multi-Signature Wallet</ModalTitle>
+                            </ModalTitleSection>
+                            <i className="uil uil-times modal-close" onClick={hideModal4}></i>
+                        </ModalHeader>
+                        <ModalContent className="modal-content">
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    Smart contract designed to be secure and gas efficient
+                                </ModalItemInfo>
+                            </ModalItem>
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    Frontend will be built in React.js
+                                </ModalItemInfo>
+                            </ModalItem>
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    Unit tests are being written using Truffle testing framework
+                                </ModalItemInfo>
+                            </ModalItem>
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    Multiple wallets can be created per account
+                                </ModalItemInfo>
+                            </ModalItem>
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    
+                                </ModalItemInfo>
+                            </ModalItem>
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    Will continue to improve the UI/UX in the future 
+                                </ModalItemInfo>
+                            </ModalItem>
+                        </ModalContent>
+                    </ModalContainer>
+                </Modal>
+            : null}
+            { modal5 ?
+                <Modal className="modal">
+                    <ModalContainer className="modal-container">
+                        <ModalHeader className="modal-header">
+                            <ModalTitleSection className="modal-title-section">
+                                <i className="uil uil-code-branch modal-logo"></i>
+                                <ModalTitle className="modal-title">Carrot Farm</ModalTitle>
+                            </ModalTitleSection>
+                            <i className="uil uil-times modal-close" onClick={hideModal5}></i>
+                        </ModalHeader>
+                        <ModalContent className="modal-content">
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    Yield farming contract where you can stake mockDai and recieve Carrot Tokens 
+                                </ModalItemInfo>
+                            </ModalItem>
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    Testing completed using Hardhat
+                                </ModalItemInfo>
+                            </ModalItem>
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    Frontend is being developed using React.js
+                                </ModalItemInfo>
+                            </ModalItem>
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    Secure from known attack vectors (non-reentrant)
+                                </ModalItemInfo>
+                            </ModalItem>
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    I will be adding a lottery contract soon to compliment the farm
+                                </ModalItemInfo>
+                            </ModalItem>
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    Will continue to improve the UI/UX in the future 
+                                </ModalItemInfo>
+                            </ModalItem>
+                        </ModalContent>
+                    </ModalContainer>
+                </Modal>
+            : null}
+            { modal6 ?
+                <Modal className="modal">
+                    <ModalContainer className="modal-container">
+                        <ModalHeader className="modal-header">
+                            <ModalTitleSection className="modal-title-section">
+                                <i className="uil uil-code-branch modal-logo"></i>
+                                <ModalTitle className="modal-title">Rock Paper Scissors</ModalTitle>
+                            </ModalTitleSection>
+                            <i className="uil uil-times modal-close" onClick={hideModal6}></i>
+                        </ModalHeader>
+                        <ModalContent className="modal-content">
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    Classic rock paper scissors game which can be wagered in the custom ($RPS) token
+                                </ModalItemInfo>
+                            </ModalItem>
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    Testing is being carried out now using Hardhat
+                                </ModalItemInfo>
+                            </ModalItem>
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    Frontend is being developed using React.js
+                                </ModalItemInfo>
+                            </ModalItem>
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    Secure from known attack vectors 
+                                </ModalItemInfo>
+                            </ModalItem>
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    Measurement are in place to prevent users funds being stuck in contract
+                                </ModalItemInfo>
+                            </ModalItem>
+                            <ModalItem className="modal-item">
+                                <i className="uil uil-check-circle soft-icon-check"></i>
+                                <ModalItemInfo className="modal-item-description">
+                                    Moves are hased with a secret word chosen by the player to prevent cheating
+                                </ModalItemInfo>
+                            </ModalItem>
+                        </ModalContent>
+                    </ModalContainer>
+                </Modal>
+            : null}
+
+
+
+
             </ProjectsContainer>
     )
 }

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import img from '../../image/lake.JPG';
-
+import {IoIosBuild} from 'react-icons/io';
+import {TiTick} from 'react-icons/ti';
 
 
 export const ProjectsContainer = styled.div`
@@ -48,8 +49,45 @@ export const ProjectsH1 = styled.h1`
 export const ProjectsSub = styled.h3`
     color: #222;
     font-size: 1.5rem;
-    margin-bottom: 90px;
+    //margin-bottom: 90px;
     margin-top: 10px;
+`;
+
+export const BlockSwitch = styled.button`
+    font-size: 2rem;
+    color: #e2c9ad;
+    //margin-right: 15rem;
+    border: none;
+    background: rgba(49, 48, 48, 0);
+    transition: all 0.2s ease-in-out;
+    &:hover{
+        color: #1FC11B;
+        transform: scale(1.1);
+    }
+`;
+
+export const OtherSwitch = styled.button`
+    font-size: 2rem;
+    color: #e2c9ad;
+    // margin-left: 10rem;
+    // margin-right:0;
+    border: none;
+    background: rgba(49, 48, 48, 0);
+    transition: all 0.2s ease-in-out;
+    &:hover{
+        color: #1FC11B;
+        transform: scale(1.1);
+    }
+`;
+
+export const Icon2 = styled(IoIosBuild)`
+font-size: 2rem;
+// color: orange;
+`;
+
+export const Icon1 = styled(TiTick)`
+font-size: 2rem;
+// color: orange;
 `;
 
 export const ProjectsWrapper = styled.div`
@@ -90,7 +128,7 @@ export const ProjectsCard = styled.div`
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    max-height: 600px;
+    max-height: 700px;
     padding: 5px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     position:relative;
@@ -104,6 +142,14 @@ export const ProjectsIcon = styled.img`
     height: 100%;
     width: 100%;
     margin-bottom: 30px;
+    object-fit: cover;
+    border-radius: 9px;
+`;
+
+export const ProjectsIconWIP = styled.img`
+    height: 60%;
+    width: 100%;
+    margin-bottom: 5px;
     object-fit: cover;
     border-radius: 9px;
 `;
