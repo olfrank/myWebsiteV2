@@ -37,6 +37,8 @@ import { ProjectsContainer,
          ModalTitleSection } from './ProjectsElements';
 
 const Projects = () => {
+
+    
     const [modal1, setModal1] = useState(false);
     const [modal2, setModal2] = useState(false);
     const [modal3, setModal3] = useState(false);
@@ -46,7 +48,10 @@ const Projects = () => {
 
     const [block, setBlock] = useState(true);
     const [other, setOther] = useState(false);
+    const [active, setActive] = useState(false);
 
+
+      
     const showModal1 = () => {
         setModal1(true);
     }
@@ -93,11 +98,13 @@ const Projects = () => {
     const blockSwitch = () => {
         setBlock(true)
         setOther(false)
+        setActive(true)
     }
 
     const otherSwitch = () => {
         setBlock(false)
         setOther(true)
+        setActive(true)
     }
 
 
@@ -112,10 +119,10 @@ const Projects = () => {
                  
                 <ProjectsH1>projects</ProjectsH1>
                 <ProjectsSub>more on my github</ProjectsSub>
-                <BlockSwitch onClick={blockSwitch}>
+                <BlockSwitch onClick={blockSwitch} isActive={active}>
                     <Icon1 />completed
                 </BlockSwitch>
-                <OtherSwitch onClick={otherSwitch}>
+                <OtherSwitch onClick={otherSwitch} isActive={active}>
                     <Icon2/>work in progress 
                 </OtherSwitch>
                 { block ?
@@ -225,7 +232,7 @@ const Projects = () => {
                 </ProjectCardWrapper>
             </ProjectsWrapper>
             : null}
-            
+
             { modal1 ?
                 <Modal className="modal">
                     <ModalContainer className="modal-container">

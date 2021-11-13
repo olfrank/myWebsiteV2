@@ -64,6 +64,10 @@ export const BlockSwitch = styled.button`
         color: #1FC11B;
         transform: scale(1.1);
     }
+
+    &.active{
+        color: #1FC11B;
+    }
 `;
 
 export const OtherSwitch = styled.button`
@@ -77,6 +81,10 @@ export const OtherSwitch = styled.button`
     &:hover{
         color: #1FC11B;
         transform: scale(1.1);
+    }
+
+    &.active{
+        color: #1FC11B;
     }
 `;
 
