@@ -1,8 +1,13 @@
 import styled from 'styled-components';
-
+import Bg from '../../image/treeBreeze.jpg'
 export const EducationContainer = styled.div`
     color: #fff;
     background: #d1d6a1;
+  
+    // background-image: url(${Bg});
+    // background-attachment: fixed;
+    // background-size: cover;
+
     @media screen and (max-width: 768px){
         padding:100px 0;
     }
@@ -51,7 +56,7 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
     color: #e06c15;
-    font-size: 26px;
+    font-size: 35px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
@@ -80,15 +85,17 @@ export const Subtitle = styled.p`
     line-height: 1.7;
     font-weight: 800;
     color: #010606;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
     padding: 10px;
 
     &:hover{
         border-radius: 20px;
         border: none;
+        background-color: #bbc089;
         //padding: 10px;
         transform: scale(1.1);
         box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        transition: all 0.1s ease-in-out;
     }
 `;
 

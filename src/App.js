@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from "./pages";
 import ContactPage from './pages/ContactForm';
 import CVPage from './pages/CVPage';
-import {CSSTransition, TransitionGroup} from 'react-transition-group';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 function App() {
 

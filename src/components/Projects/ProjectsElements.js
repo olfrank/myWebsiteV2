@@ -1,7 +1,9 @@
 import styled from 'styled-components';
-import img from '../../image/lake.JPG';
-import {IoIosBuild} from 'react-icons/io';
-import {TiTick} from 'react-icons/ti';
+import img from '../../image/rainbow.JPG';
+import {FaHandPointRight} from 'react-icons/fa';
+import {FaHandPointLeft} from 'react-icons/fa';
+
+// import {TiTick} from 'react-icons/ti';
 
 
 export const ProjectsContainer = styled.div`
@@ -13,12 +15,14 @@ export const ProjectsContainer = styled.div`
     justify-content: center;
     align-items: center;
     background: #FF9C55;
+   
     
     //background-image: linear-gradient(#FF9C55, #FFD913);
     //#101606;
     background-image: url(${img});
     background-attachment: fixed;
     background-size: cover;
+    background-position: left;
     // -o-object-fit: cover;
     // object-fit: cover;
     
@@ -29,12 +33,14 @@ export const ProjectsContainer = styled.div`
     @media screen and(max-width: 480px){
         height: 1300px;
     }
+
+    
 `;
 
 
 export const ProjectsH1 = styled.h1`
-    font-size: 4rem;
-    color: #f1dfad;
+    font-size: 5rem;
+    color: #000;
     margin: auto;
     margin-top: 80px;
     margin-bottom: 10px;
@@ -55,13 +61,13 @@ export const ProjectsSub = styled.h3`
 
 export const BlockSwitch = styled.button`
     font-size: 2rem;
-    color: #e2c9ad;
+    color: #000;
     
     border: none;
     background: rgba(49, 48, 48, 0);
     transition: all 0.2s ease-in-out;
     &:hover{
-        color: #1FC11B;
+        color: #ffd913;
         transform: scale(1.1);
     }
 
@@ -72,14 +78,14 @@ export const BlockSwitch = styled.button`
 
 export const OtherSwitch = styled.button`
     font-size: 2rem;
-    color: #e2c9ad;
+    color: #000;
     
     border: none;
     background: rgba(49, 48, 48, 0);
     transition: all 0.2s ease-in-out;
     margin-bottom: 20px; 
     &:hover{
-        color: #1FC11B;
+        color: #ffd913;
         transform: scale(1.1);
     }
 
@@ -88,15 +94,17 @@ export const OtherSwitch = styled.button`
     }
 `;
 
-export const Icon2 = styled(IoIosBuild)`
+export const Icon1 = styled(FaHandPointRight)`
 font-size: 2rem;
 // color: orange;
 `;
 
-export const Icon1 = styled(TiTick)`
+export const Icon2 = styled(FaHandPointLeft)`
 font-size: 2rem;
 // color: orange;
 `;
+
+
 
 export const ProjectsWrapper = styled.div`
     // max-width: 1000px;
@@ -130,7 +138,7 @@ export const ProjectCardWrapper = styled.div`
 
 
 export const ProjectsCard = styled.div`
-    background: rgb(58, 58, 58, 0.8);
+    background: #2e2e2e;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -221,7 +229,7 @@ export const Details = styled.div`
     padding: 10px;
     border: none;
     border-radius: 10px;
-    background: #2e2e2e;
+    background: #000;
     font-weight: 900;
 
     

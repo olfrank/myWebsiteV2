@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import '../App.css';
 import Footer from '../components/Footer';
-import CVPicture from '../image/cv1.png';
-import CVPicture2 from '../image/cv2.png';
-import CVpdf from '../image/Oliver_Francis_Dev_CV_PDF.pdf';
+import CVPicture from '../image/cvp1.png';
+import CVPicture2 from '../image/cvp2.png';
+import CVpdf from '../image/Oliver_Francis_CV_BlockchainDev_2022.pdf';
 
 import {CVPageWrapper,
         ViewCVButton,
@@ -83,9 +83,9 @@ const CVPage = () => {
             <Subheading>SKILLS</Subheading>
                 <Subheading2>Technical Skills</Subheading2>
                 <Hard>
-                    <li><mark>Languages:</mark> Solidity, JavaScript, HTML, CSS</li>
+                    <li><mark>Languages:</mark> Solidity, JavaScript, TypeScript, HTML, CSS</li>
                     <li><mark>Frameworks:</mark> Hardhat, Truffle, OpenZeppelin</li>
-                    <li><mark>Tools and Libraries:</mark> React.js, Web3.js, jQuery, Ganache, GitHub, Bootstrap</li>
+                    <li><mark>Tools and Libraries:</mark> React.js, web3.js, ethers.js, jQuery, Ganache, GitHub, Bootstrap</li>
                 </Hard>
                 <Subheading2>Other Skills</Subheading2>
                 <Soft>
@@ -102,9 +102,8 @@ const CVPage = () => {
         <Subheading>EDUCATION</Subheading>
             <Education>
                     <li><mark>University of Reading (2016-2019):</mark> 2.1 Bachelor of Science in Geography (Human and Physical). </li>
-                    <li><mark>Dissertation:</mark> Nuclear Power’s Part in Sustainable UK Energy Security and Potential Implications Post-Brexit</li>
                     <li><mark>Gordon’s School (2009-2016)</mark></li>
-                    <li>A level:  3-B's</li>								
+                    							
             </Education>
             
         </EducationWrapper>
@@ -115,6 +114,39 @@ const CVPage = () => {
             
             <li><mark>Website:</mark> You can view my website code on github <Link href="">here</Link> </li>
             <br></br>
+
+            <li><mark>Capstone - Decentralised Property Listing Application</mark> Through the implementation of zkSNARKs (using ZoKrates toolbox), 
+            users can mint tokens to represent their verified title to a property without the need to reveal sensitive information. Contract has 
+            been deployed to Rinkeby through Infura and assets can be purchased on OpenSea (testnet). 
+            (Solidity, TypeScript, ethers.js, Hardhat)
+                <Link href="https://github.com/olfrank/CapstoneV2_Blockchain">Code </Link> 
+                <p> </p>
+                <Link href="https://testnets.opensea.io/collection/zkproperties"> DApp</Link> 
+            </li>
+
+            <br></br>
+
+            <li><mark>FlightSurety - Flight Insurance Application:</mark> Insurance for flight delays and cancellations. Express.js server to 
+            simulate the communication and retrieval of oracle data for flight statuses. Engaging user-focused frontend hosted on Fleek (IPFS). 
+            Upgradable and pausable smart contract with a multiparty consensus mechanism in place for decentralised decision making. 
+            (Solidity, JavaScript, HTML, CSS, web3.js, Node.js, Truffle)
+                <Link href="https://github.com/olfrank/FlightSuretyDApp">Code </Link> 
+                <p> </p>
+                <Link href="https://aged-scene-6641.on.fleek.co/src/dapp/"> DApp</Link> 
+            </li>
+
+            <br></br>
+
+            <li><mark>Authentic Wines - Supply Chain Tracking Application</mark> Decentralised application used to track wine through the different stages of its supply chain. 
+            Used UML to architect the application and smart contract logic for development. Access control feature in smart contract design 
+            for different actors on the supply chain. 
+                <Link href="https://github.com/olfrank/WineSupplyChainDApp">Code </Link> 
+                <p> </p>
+                <Link href="https://shiny-truth-6645.on.fleek.co/"> DApp</Link> 
+            </li>
+
+            <br></br>
+
             <li><mark>Funky Felines (DApp):</mark> Is an NFT (ERC721) Marketplace whereby you can buy, sell, collect and breed unique cat NFT’s. 
                 Each cat has a DNA string that is directly correlated to its colors and attributes. The DApp features a breeding algorithm 
                 that randomly mixes the DNA from both the mother and father to produce a unique kitten. (JavaScript, Solidity, jQuery, Web3.js, Truffle)
@@ -122,34 +154,44 @@ const CVPage = () => {
                 <p> </p>
                 <Link href="https://olfrank.github.io/Funky_Felines_DApp/client/index.html"> DApp</Link> 
             </li>
+
                 <br></br>
+
             <li><mark>DEX (DApp):</mark> Is a rudimentary decentralised exchange whereby you can trade ETH for ERC20 tokens and visa versa. 
                 You can trade crypto assets through either market or limit orders, as well as view open orders via the orderbook. (JavaScript, Solidity, jQuery, Web3.js, Truffle).
                 <Link href="https://github.com/olfrank/new_Dex_Dapp">Code </Link> 
                 <p> </p>
                 <Link href="https://olfrank.github.io/new_Dex_Dapp/client/index.html"> DApp</Link>
             </li>
+
             <br></br>
+
             <li><mark>Coin Tracker:</mark> Using an API to fetch live data from coin paprika, you can view the top 10 crypto's current price. 
                 The website also features a mock account balance which can be used to purchase the assets listed. (React.js) 
                 <Link href="https://github.com/olfrank/coin-exchange"> Code </Link> 
                 <p> </p>
                 <Link href="https://olfrank.github.io/coin-exchange/"> Website</Link> 
             </li>
+
             <br></br>
+
             <li><mark>Multi-Signature Wallet:</mark> The smart contract design is focused on reducing gas consumption while maintaining security. 
                 Users can create multiple wallet instances under the same account and deposit custom ERC-20 tokens. 
                 Currently developing the frontend. (Solidity, Hardhat).
                 <Link href="https://github.com/olfrank/coin-exchange">Code </Link> 
                 
             </li>
+
             <br></br>
+
             <li><mark>Carrot Farm:</mark> The smart contract design is focused on reducing gas consumption while maintaining security. 
                 Users can create multiple wallet instances under the same account and deposit custom ERC-20 tokens. 
                 Currently developing the frontend. (Solidity, Hardhat). 
                 <Link href="https://github.com/olfrank/Yield_Farm_DApp_">Code </Link> 
             </li>
+
             <br></br>
+
             <li><mark>Rock Paper Scissors:</mark> The smart contract was designed to be gas efficient and secure from known attack vectors. 
                 The game can be wagered in custom rock paper scissors ERC-20 token. 
                 Measurements are in place to avoid funds being stuck in the contract. (Solidity, Hardhat). 
@@ -164,8 +206,10 @@ const CVPage = () => {
         <CertificatesWrapper>
             <Certificates>
             <Subheading>CERTIFICATES</Subheading>
+
+            <Subheading2><mark>Udacity Blockchain Developer Nanodegree (November 2021 - February 2022)</mark></Subheading2> 
             												
-            <Subheading2><mark>Moralis (Ivan on Tech) Blockchain Academy:</mark></Subheading2> 
+            <Subheading2><mark>Moralis (Ivan on Tech) Blockchain Academy (January 2021 - May 2022)</mark></Subheading2> 
             
                 <li>Cryptography and Privacy Coins (May 2021)</li>
                 <li>DeFi 201 (May 2021)	</li>

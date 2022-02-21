@@ -3,6 +3,7 @@
 /* @import url("https://use.typekit.net/ufu8iwy.css"); */
 @import url("https://unicons.iconscout.com/release/v4.0.0/css/line.css");
 
+
 * {
 box-sizing: border-box;
 margin: auto;
@@ -11,10 +12,11 @@ padding: 0;
 
 font-family: 'Cutive Mono', monospace;
 /* font-family: 'courier-std', monospace; */
+/* font-family: 'Victor Mono'; */
 }
 
 mark{
-    background-color: rgb(239, 247, 168);
+    background-color: #93b9ae;
 }
 li{
     margin-top: 10px;

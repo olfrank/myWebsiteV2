@@ -4,12 +4,7 @@ import {BiCube} from 'react-icons/bi';
 
 export const CertificatesContainer = styled.div`
     height: 1100px;
-    
-    // background: #101522;
-    // background: rgb(216, 157, 118);
-    
-    // background: #fbc57d;
-    background:#101522
+    background: #222;
 `;
 
 export const CertificatesH1 = styled.h1`
@@ -31,34 +26,33 @@ export const CertificatesSub = styled.h3`
 `;
 
 export const CertificateChoiceWrapper = styled.div`
-
-position: relative;
-align-items: center;
-display:flex;
+    position: relative;
+    align-items: center;
+    display:flex;
 `;
 
 export const BlockSwitch = styled.button`
 font-size: 2rem;
-color: hsl(176, 80%, 35%);;
+color: hsl(39deg 78% 61%);
 margin-right: 15rem;
 border: none;
 background: rgba(49, 48, 48, 0);
 transition: all 0.2s ease-in-out;
 &:hover{
-    color: #FFD913;
+    color: #ffd913;
     transform: scale(1.1);
 }
 `;
 
 export const OtherSwitch = styled.button`
 font-size: 2rem;
-color: hsl(176, 80%, 35%);;
+color: hsl(39deg 78% 61%);
 margin-left: 10rem;
 border: none;
 background: rgba(49, 48, 48, 0);
 transition: all 0.2s ease-in-out;
 &:hover{
-    color: #FFD913;
+    color: #ffd913;
     transform: scale(1.1);
 }
 `;

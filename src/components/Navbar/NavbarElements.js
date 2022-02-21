@@ -86,7 +86,7 @@ export const NavLinks = styled(LinkScroll)`
     padding: 0 1rem;
     height: 86%;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 900;
 
     &:hover{

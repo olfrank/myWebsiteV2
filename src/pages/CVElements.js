@@ -10,7 +10,8 @@ height: 100%;
 margin: auto;
 align-items: center;
 position relative;
-background: #d1d6a1;
+// background: #d1d6a1;
+background: #b4c1a0;
 border-radius: 5px;
 padding: 25px;
 margin-bottom: 3rem;
@@ -150,7 +151,7 @@ font-size: 17px;
 `;
 
 export const Link = styled.a`
-    color: red;
+    color: #2f22e3;
 `;
 
 export const BackHome = styled(LinkRouter)`

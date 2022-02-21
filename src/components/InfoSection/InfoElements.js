@@ -3,6 +3,9 @@ import styled from 'styled-components';
 export const InfoContainer = styled.div`
     color: #fff;
     background: #101522;
+    background: #5b6685;
+    background: #5b8579;
+    background: #192619;
     @media screen and (max-width: 768px){
         padding:100px 0;
     }
@@ -51,7 +54,7 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
     color: #e06c15;
-    font-size: 26px;
+    font-size: 35px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
