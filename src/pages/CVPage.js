@@ -85,7 +85,7 @@ const CVPage = () => {
                 <Hard>
                     <li><mark>Languages:</mark> Solidity, JavaScript, TypeScript, HTML, CSS</li>
                     <li><mark>Frameworks:</mark> Hardhat, Truffle, OpenZeppelin</li>
-                    <li><mark>Tools and Libraries:</mark> React.js, web3.js, ethers.js, jQuery, Ganache, GitHub, Bootstrap</li>
+                    <li><mark>Tools and Libraries:</mark> React.js, web3.js, ethers.js, jQuery, Ganache, Bootstrap</li>
                 </Hard>
                 <Subheading2>Other Skills</Subheading2>
                 <Soft>
