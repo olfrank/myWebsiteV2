@@ -48,7 +48,7 @@ const Projects = () => {
 
     const [block, setBlock] = useState(true);
     const [other, setOther] = useState(false);
-    const [active, setActive] = useState(false);
+    // const [active, setActive] = useState(false);
 
 
       
@@ -98,13 +98,13 @@ const Projects = () => {
     const blockSwitch = () => {
         setBlock(true)
         setOther(false)
-        setActive(true)
+        // setActive(true)
     }
 
     const otherSwitch = () => {
         setBlock(false)
         setOther(true)
-        setActive(true)
+        // setActive(true)
     }
 
 

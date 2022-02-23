@@ -40,7 +40,7 @@ const Footer = () => {
                             <SocialIconLinkTw href="https://twitter.com/OllieFrancis18" target="_blank" aria-label ="Twitter">
                                 <FaTwitter />
                             </SocialIconLinkTw>
-                            <SocialIconLinkLi href="https://www.linkedin.com/in/ollie-francis-57256b1b1/" target="_blank" aria-label ="Linkedin">
+                            <SocialIconLinkLi href="https://www.linkedin.com/in/ollie--francis/" target="_blank" aria-label ="Linkedin">
                                 <FaLinkedin />
                             </SocialIconLinkLi>
                         </SocialIcons>

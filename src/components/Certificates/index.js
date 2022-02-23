@@ -30,6 +30,7 @@ import cert12 from '../../allCertificates/cert-15.png';
 import cert13 from '../../allCertificates/cert07.png';
 import cert14 from '../../allCertificates/cert06.png';
 import cert15 from '../../allCertificates/cert04.png';
+import udacity from '../../allCertificates/udacity.png';
 
 SwiperCore.use([Pagination, EffectCoverflow]);
 
@@ -81,7 +82,9 @@ const Certificates = () => {
                 clickable: true, 
                 type: "fraction",
             }} >
-            
+                <SwiperSlide> 
+                    <img src={udacity} alt="certificate" className="certificate-img"/>
+                </SwiperSlide>
                 <SwiperSlide> 
                     <img src={cert1} alt="certificate" className="certificate-img"/>
                 </SwiperSlide>

@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import '../App.css';
 import Footer from '../components/Footer';
-import CVPicture from '../image/cvp1.png';
-import CVPicture2 from '../image/cvp2.png';
+import CVPicture from '../image/CV.png';
 import CVpdf from '../image/Oliver_Francis_CV_BlockchainDev_2022.pdf';
 
 import {CVPageWrapper,
@@ -68,9 +67,10 @@ const CVPage = () => {
         <PStatementWrapper>
         <Subheading>PERSONAL STATEMENT</Subheading>
             <StatementText>                           										
-            A Bachelor of Science Geography graduate with a logical, pragmatic, and creative approach to solving problems. 
-            A self-starter with a well-rounded and developed understanding of decentralised finance (DeFi), smart contract programming and smart contract security. 
-            A strong grounding in developing user-focused and secure decentralised blockchain applications using Solidity, JavaScript, Truffle and Web3.js. 
+            BSc graduate and entrepreneurially minded blockchain developer with a logical and pragmatic approach to solving problems. 
+            A self-starter with a well-rounded and developed understanding of decentralised finance (DeFi) and its ecosystem, smart 
+            contract programming and smart contract security. Proficient in developing user focused and secure Web3 decentralised 
+            applications (DApps) using modern web development techniques and technologies. 
             <br></br><br></br>
             A firm believer in decentralisation as an engine to accelerate the inclusion of marginalised communities and grant equal 
             access to financial opportunities. Eager to be part of a blockchain community that cultivates and encourages individual 
@@ -143,6 +143,15 @@ const CVPage = () => {
                 <Link href="https://github.com/olfrank/WineSupplyChainDApp">Code </Link> 
                 <p> </p>
                 <Link href="https://shiny-truth-6645.on.fleek.co/"> DApp</Link> 
+            </li>
+
+            <br></br>
+            <li><mark>Private Blockchain: </mark> Using the fundamentals of architecting a blockchain data model, 
+            this projects configures how each block stores data, validates blocks, adds new blocks to the chain, 
+            and creates a methods to validate the chain's integrity. Using a backend API RESTful webclient, 
+            the blockchain has then been migrated to a web service. Also the blockchain encrypts and decrypts the unique 
+            digital collectibles on the blockchain.  
+                <Link href="https://github.com/olfrank/privateBlockchain">Code </Link> 
             </li>
 
             <br></br>
@@ -262,7 +271,6 @@ const CVPage = () => {
                         </DownloadButton>
                 </ButtonWrapper>
                 <img src={CVPicture} alt="CV"/>
-                <img src={CVPicture2} alt="CV"/>
                     
                     
                 </ModalCV>
