@@ -127,18 +127,18 @@ export const ProjectsWrapper = styled.div`
     }
 `;
 export const ProjectCardWrapper = styled.div`
-    transition: all 0.2s ease-in-out;
+    transition: all 0.4s ease-in-out;
 
     &:hover {
-        transform: scale(1.05);
-        transition: all 0.2s ease-in-out;
+        transform: scale(1.1);
+        transition: all 0.4s ease-in-out;
         cursor: pointer;
     }
 `;
 
 
 export const ProjectsCard = styled.div`
-    background: #2e2e2e;
+    background: #191919;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -183,7 +183,8 @@ export const LanguagesP = styled.p`
     margin-top: 15px;
     font-weight: 800;
 //    background-color: #1ec11b3d;
-    background-color: #9171a04f;
+    // background-color: #9171a04f;
+    background-color: #372a2ac7;
     
 `;
 
@@ -199,14 +200,14 @@ export const ProjectsH2 = styled.h2`
 
 export const GitLogoLink = styled.a`
     font-size: 45px;
-    color: #88b377;
+    color: #d29466;
     margin-top: 5px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 
     &:hover {
         transform: scale(1.05);
-        color: #FF5555;
+        color: #63a562;
         transition: all 0.2s ease-in-out;
     }
 `;
@@ -214,13 +215,13 @@ export const GitLogoLink = styled.a`
 export const WebsiteLink = styled.a`
     font-size: 45px;
     //color: #FF9C55;
-    color: #9171a0d6;
+    color: #c6a58e;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 
     &:hover {
         transform: scale(1.1);
-        color: #FF5555;
+        color: #63a562;
         transition: all 0.2s ease-in-out;
     }
 
@@ -231,8 +232,6 @@ export const Details = styled.div`
     border-radius: 10px;
     background: #000;
     font-weight: 900;
-
-    
 `;
 
 export const Modal = styled.div`
@@ -252,10 +251,10 @@ export const Modal = styled.div`
 
 export const ModalContainer = styled.div`
     position: relative;
-    background-color: #2e2e2e;
+    background-color: #191919;
     border-radius: 0.5rem;
     padding: 1.5rem;
-    border: 3px solid #88b377;
+    border: 3px solid #aa571c;
 `;
 
 export const ModalItem = styled.div`

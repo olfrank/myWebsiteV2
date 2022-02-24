@@ -80,27 +80,29 @@ transition: opacity 500ms linear 250ms;
 }
 
   .project-switch {
-    color: hsl(103, 39%, 65%);
+    color: #df6a16;
     font-size: 1.05rem;
     font-weight: 900;
+    transition: all 0.3s ease-in-out;
     
   }
   
   .project-switch:hover {
     /* color: hsl(176, 74%, 28%); */
-    color: hsl(103, 39%, 65%);
+    color: #df6a16;
     font-size: 1rem;
     cursor: pointer;
     transform: scale(1.1);
-    transition: 0.3s ease-in-out;
-    box-shadow: 0px 0px 10px 5px hsl(103, 39%, 65%);
+    /* transition: 0.3s ease-in-out; */
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 5px 2px #dd9968;
   }
 
   
   .modal-logo {
     font-size: 1.25rem;
     padding-right: 0.25rem;
-    color: #88b377;
+    color: #aa571c;
   }
 
   .modal-close {
@@ -117,7 +119,7 @@ transition: opacity 500ms linear 250ms;
   }
 
   .soft-icon-check{
-    color: rgb(64, 197, 59);
+    color: #aa571c;
     margin-right: 0.5rem;
   }
 

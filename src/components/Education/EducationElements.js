@@ -92,7 +92,6 @@ export const Subtitle = styled.p`
         border-radius: 20px;
         border: none;
         background-color: #bbc089;
-        //padding: 10px;
         transform: scale(1.1);
         box-shadow: 0 1px 3px rgba(0,0,0,0.2);
         transition: all 0.1s ease-in-out;

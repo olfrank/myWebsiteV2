@@ -130,7 +130,7 @@ const Projects = () => {
                     <ProjectCardWrapper>
                         <ProjectsCard  data-aos="zoom-out-right" className="project-card">
                             <ProjectsIconWIP src={Img4}/>
-                            <ProjectsH2>zkProperties (Capstone)</ProjectsH2>
+                            <ProjectsH2>zkProperties</ProjectsH2>
                             <Details className="project-switch" onClick={showModal4}>Details <i className="uil uil-eye switch-icon"></i>  </Details>
 
                             <LanguagesP>
