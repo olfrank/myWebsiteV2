@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/myWebsiteV2/static/css/main.70b648a2.chunk.css",
-    "main.js": "/myWebsiteV2/static/js/main.7f9be985.chunk.js",
-    "main.js.map": "/myWebsiteV2/static/js/main.7f9be985.chunk.js.map",
+    "main.js": "/myWebsiteV2/static/js/main.e4771aa4.chunk.js",
+    "main.js.map": "/myWebsiteV2/static/js/main.e4771aa4.chunk.js.map",
     "runtime-main.js": "/myWebsiteV2/static/js/runtime-main.f13fd750.js",
     "runtime-main.js.map": "/myWebsiteV2/static/js/runtime-main.f13fd750.js.map",
     "static/css/2.6bf1a4d6.chunk.css": "/myWebsiteV2/static/css/2.6bf1a4d6.chunk.css",
-    "static/js/2.21bfb139.chunk.js": "/myWebsiteV2/static/js/2.21bfb139.chunk.js",
-    "static/js/2.21bfb139.chunk.js.map": "/myWebsiteV2/static/js/2.21bfb139.chunk.js.map",
+    "static/js/2.b71d1106.chunk.js": "/myWebsiteV2/static/js/2.b71d1106.chunk.js",
+    "static/js/2.b71d1106.chunk.js.map": "/myWebsiteV2/static/js/2.b71d1106.chunk.js.map",
     "index.html": "/myWebsiteV2/index.html",
     "static/css/2.6bf1a4d6.chunk.css.map": "/myWebsiteV2/static/css/2.6bf1a4d6.chunk.css.map",
     "static/css/main.70b648a2.chunk.css.map": "/myWebsiteV2/static/css/main.70b648a2.chunk.css.map",
-    "static/js/2.21bfb139.chunk.js.LICENSE.txt": "/myWebsiteV2/static/js/2.21bfb139.chunk.js.LICENSE.txt",
-    "static/media/Oliver_Francis_CV_BlockchainDev_2022.f6d1725b.pdf": "/myWebsiteV2/static/media/Oliver_Francis_CV_BlockchainDev_2022.f6d1725b.pdf",
+    "static/js/2.b71d1106.chunk.js.LICENSE.txt": "/myWebsiteV2/static/js/2.b71d1106.chunk.js.LICENSE.txt",
+    "static/media/CV.c045e090.png": "/myWebsiteV2/static/media/CV.c045e090.png",
+    "static/media/Oliver_Francis_CV_BlockchainDev_2022.ad1c23f8.pdf": "/myWebsiteV2/static/media/Oliver_Francis_CV_BlockchainDev_2022.ad1c23f8.pdf",
     "static/media/StarsBg.7b72348d.mp4": "/myWebsiteV2/static/media/StarsBg.7b72348d.mp4",
     "static/media/authWines.1fb25b4d.png": "/myWebsiteV2/static/media/authWines.1fb25b4d.png",
     "static/media/capstone.31b6abc9.png": "/myWebsiteV2/static/media/capstone.31b6abc9.png",
@@ -32,22 +33,21 @@
     "static/media/cert08.bd55a2fa.png": "/myWebsiteV2/static/media/cert08.bd55a2fa.png",
     "static/media/cert09.64424486.png": "/myWebsiteV2/static/media/cert09.64424486.png",
     "static/media/coin-tracker.a78df9b7.png": "/myWebsiteV2/static/media/coin-tracker.a78df9b7.png",
-    "static/media/cvp1.ff47ff72.png": "/myWebsiteV2/static/media/cvp1.ff47ff72.png",
-    "static/media/cvp2.7a63cd28.png": "/myWebsiteV2/static/media/cvp2.7a63cd28.png",
     "static/media/dex.369ad960.png": "/myWebsiteV2/static/media/dex.369ad960.png",
     "static/media/dofe.e5dbfb52.jpg": "/myWebsiteV2/static/media/dofe.e5dbfb52.jpg",
     "static/media/flightSurety.5894538b.png": "/myWebsiteV2/static/media/flightSurety.5894538b.png",
     "static/media/funkyFelines.48b031f0.png": "/myWebsiteV2/static/media/funkyFelines.48b031f0.png",
     "static/media/rainbow.bfcfe4e1.JPG": "/myWebsiteV2/static/media/rainbow.bfcfe4e1.JPG",
     "static/media/treeBreeze.f3ff127f.jpg": "/myWebsiteV2/static/media/treeBreeze.f3ff127f.jpg",
+    "static/media/udacity.c22d78fb.png": "/myWebsiteV2/static/media/udacity.c22d78fb.png",
     "static/media/uni.e88167db.jpg": "/myWebsiteV2/static/media/uni.e88167db.jpg",
     "static/media/yellowBg.e7bd4ee2.mp4": "/myWebsiteV2/static/media/yellowBg.e7bd4ee2.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.f13fd750.js",
     "static/css/2.6bf1a4d6.chunk.css",
-    "static/js/2.21bfb139.chunk.js",
+    "static/js/2.b71d1106.chunk.js",
     "static/css/main.70b648a2.chunk.css",
-    "static/js/main.7f9be985.chunk.js"
+    "static/js/main.e4771aa4.chunk.js"
   ]
 }
