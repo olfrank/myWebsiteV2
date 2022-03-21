@@ -74,7 +74,7 @@ export const Heading = styled.h1`
     font-size: 35px;
     line-height: 1.1;
     font-weight: 600;
-    color: #010606;
+
     color: #fff;
     
 
@@ -98,26 +98,18 @@ export const Subtitle = styled.p`
     color: #fff;
     padding: 10px;
     position: relative;
-    
-    top: 0;
-    left: 0;
-    box-shadow: rgba(218, 94, 4, 0.4) 0px 0px, 
-                rgba(218, 94, 4, 0.3) 0px 0px, 
-                rgba(218, 94, 4, 0.2) 0px 0px, 
-                rgba(218, 94, 4, 0.1) 0px 0px, 
-                rgba(218, 94, 4, 0.05) 0px 0px;
+    box-shadow: 0px 0px,
     transition: all ease-in-out 2s;
-    
 
     &:hover{
-        top: -20px;
-        left: 20px;
+        transition: all ease-in-out 2s;
+        transform: translate(10px, -10px);
         box-shadow: rgba(218, 94, 4, 0.4) -5px 5px, 
                     rgba(218, 94, 4, 0.3) -10px 10px, 
                     rgba(218, 94, 4, 0.2) -15px 15px, 
                     rgba(218, 94, 4, 0.1) -20px 20px, 
                     rgba(218, 94, 4, 0.05) -25px 25px;
-        transition: all ease-in-out 2s;
+        
     }
 `;
 

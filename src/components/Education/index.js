@@ -35,7 +35,7 @@ const Education = () => {
                     <EducationRow>
                         <Column1>
                         <TextWrapper>
-                            <TopLine data-aos="flip-up">education...</TopLine>
+                            <TopLine data-aos="flip-up">03.education...</TopLine>
                             <Heading data-aos="flip-up" >* BSc Geography, University of Reading</Heading>
                             <Heading data-aos="flip-up" >* Udacity Blockchain Developer Nanodegree</Heading>
                             <Heading data-aos="flip-up" >* Moralis (Ivan on Tech) Blockchain Academy (15 Courses)</Heading>

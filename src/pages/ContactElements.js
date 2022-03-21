@@ -141,57 +141,60 @@ export const ResetBtn = styled.button`
 `;
 
 export const Header = styled.h1`
-    font-size: 5rem;
+   
     text-align: center;
-    color: #e0c695;
+    
     position: relative;
     padding-left: 5px;
     justify-content: center;
     z-index: 2;
     margin-bottom: -30px;
     margin-top: 40px;
-    animation-name: floating;
-    animation-duration: 3.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    text-shadow: 0px 0px 10px #fff;
+ 
+    color: #e06c15;
+    font-size: 35px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+
 
     @media screen and (max-width: 800px){
-        font-size: 3rem;
+        font-size: 35px;
+        margin-top: 5px;
     }
 
-    @keyframes floating {
-        0% { transform: translate(0,  0px); }
-        50%  { transform: translate(0, 30px); }
-        100%   { transform: translate(0, -0px); }   
-    }
+    // @keyframes floating {
+    //     0% { transform: translate(0,  0px); }
+    //     50%  { transform: translate(0, 30px); }
+    //     100%   { transform: translate(0, -0px); }   
+    // }
     
 `;
 
-export const ArrowDown = styled(BsArrowDownShort)`
-    font-size: 90px;
-    position: relative;
-    display: flex;
-    top: 30px;
-    color: #e0c695;
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    text-shadow: 0px 0px 10px #fff;
+// export const ArrowDown = styled(BsArrowDownShort)`
+//     font-size: 90px;
+//     position: relative;
+//     display: flex;
+//     top: 30px;
+//     color: #e0c695;
+//     animation-name: floating;
+//     animation-duration: 3s;
+//     animation-iteration-count: infinite;
+//     animation-timing-function: ease-in-out;
+//     text-shadow: 0px 0px 10px #fff;
 
-    @media screen and (max-width: 800px){
-        font-size: 50px;
-    }
+//     @media screen and (max-width: 800px){
+//         font-size: 50px;
+//     }
 
-    @keyframes floating {
-        0% { transform: translate(0,  0px); }
-        50%  { transform: translate(0, 25px); }
-        100%   { transform: translate(0, -0px); }   
-    }
+//     @keyframes floating {
+//         0% { transform: translate(0,  0px); }
+//         50%  { transform: translate(0, 25px); }
+//         100%   { transform: translate(0, -0px); }   
+//     }
 
 
-`;
+// `;
 export const ResetArrow = styled(GrPowerReset)`
     font-size: 20px;
     cursor: pointer;

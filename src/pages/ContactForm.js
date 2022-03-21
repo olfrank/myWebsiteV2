@@ -11,7 +11,7 @@ import { Header,
          EmailField, 
          MessageField, 
          Button, 
-         ArrowDown, 
+        //  ArrowDown, 
          MailIcon, 
          BackArrow,
          SubjectField,
@@ -74,8 +74,8 @@ const ContactForm = () =>{
           <BackArrow  />
         </BackHome>
         
-        <Header>contact me</Header>
-        <ArrowDown/>
+        <Header>05.contact me</Header>
+        {/* <ArrowDown/> */}
         
             <HeroBg>
                 <VideoBg autoPlay loop muted src={Video} type= "video/mp4" />

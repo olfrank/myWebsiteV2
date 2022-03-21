@@ -14,7 +14,7 @@ import SwiperCore, { Pagination, EffectCoverflow } from 'swiper';
 import uni from '../../allCertificates/uni.jpg';
 import dofe from '../../allCertificates/dofe.jpg';
 
-
+import udemy from '../../allCertificates/udemy.jpeg'
 import cert1 from '../../allCertificates/cert02.png';
 import cert2 from '../../allCertificates/cert08.png';
 import cert3 from '../../allCertificates/cert-12.png';
@@ -51,7 +51,7 @@ const Certificates = () => {
 
     return (
         <CertificatesContainer id="certificates">
-            <CertificatesH1>certificates</CertificatesH1>
+            <CertificatesH1>04.certificates...</CertificatesH1>
             <CertificatesSub></CertificatesSub>
             <CertificateChoiceWrapper>
                 <BlockSwitch onClick={blockSwitch}>
@@ -84,6 +84,9 @@ const Certificates = () => {
             }} >
                 <SwiperSlide> 
                     <img src={udacity} alt="certificate" className="certificate-img"/>
+                </SwiperSlide>
+                <SwiperSlide> 
+                    <img src={udemy} alt="certificate" className="certificate-img"/>
                 </SwiperSlide>
                 <SwiperSlide> 
                     <img src={cert1} alt="certificate" className="certificate-img"/>

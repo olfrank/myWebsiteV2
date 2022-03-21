@@ -8,12 +8,15 @@ export const CertificatesContainer = styled.div`
 `;
 
 export const CertificatesH1 = styled.h1`
-    color: #f1dfad;
-    text-align: center;
+    margin-left: 15%;
+    color: #e06c15;
+    font-size: 40px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+
     padding-top: 120px;
     margin-bottom:10px;
-    font-size: 4rem;
-    font-weight: 800;
     text-shadow: 4px 4px 9px black;
 
 `;
@@ -27,12 +30,15 @@ export const CertificatesSub = styled.h3`
 
 export const CertificateChoiceWrapper = styled.div`
     position: relative;
-    align-items: center;
-    display:flex;
+    
 `;
 
-export const BlockSwitch = styled.button`
-font-size: 2rem;
+export const BlockSwitch = styled.div`
+margin-left: 15%;
+font-size: 30px;
+line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
 color: hsl(39deg 78% 61%);
 margin-right: 15rem;
 border: none;
@@ -40,30 +46,32 @@ background: rgba(49, 48, 48, 0);
 transition: all 0.2s ease-in-out;
 &:hover{
     color: #ffd913;
-    transform: scale(1.1);
+    transform: scale(1.04);
 }
 `;
 
-export const OtherSwitch = styled.button`
-font-size: 2rem;
+export const OtherSwitch = styled.div`
+margin-left: 15%;
+font-size: 30px;
 color: hsl(39deg 78% 61%);
-margin-left: 10rem;
+margin-top: 3%;
+
 border: none;
 background: rgba(49, 48, 48, 0);
 transition: all 0.2s ease-in-out;
 &:hover{
     color: #ffd913;
-    transform: scale(1.1);
+    transform: scale(1.04);
 }
 `;
 
 export const Icon1 = styled(BiCube)`
-font-size: 2rem;
+font-size: 30px;
 // color: orange;
 `;
 
 export const Icon2 = styled(GoChecklist)`
-font-size: 2rem;
+font-size: 30px;
 // color: orange;
 `;
 
