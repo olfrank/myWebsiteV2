@@ -1,10 +1,13 @@
 import styled from 'styled-components';
-import Bg from '../../image/treeBreeze.jpg'
+// import Bg from '../../image/treeBreeze.jpg'
+
 export const EducationContainer = styled.div`
     color: #fff;
-    background: #d1d6a1;
+    overflow: hidden;
+    // background: #d1d6a1;
+    background: #191919;
   
-    // background-image: url(${Bg});
+    
     // background-attachment: fixed;
     // background-size: cover;
 
@@ -37,21 +40,23 @@ export const EducationRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-    margin-bottom: 15px;
+    // margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
+    width: 40vw;
 `;
 
 export const Column2 = styled.div`
-    margin-bottom: 15px;
+    // margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
+    // width: 40vw;
 `;
 
 export const TextWrapper = styled.div`
-    max-width: 540px;
+    max-width: 840px;
     padding-top: 0;
-    padding-bottom: 60px;
+    // padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`
@@ -70,6 +75,7 @@ export const Heading = styled.h1`
     line-height: 1.1;
     font-weight: 600;
     color: #010606;
+    color: #fff;
     
 
     @media screen and (max-width: 480px){
@@ -79,32 +85,49 @@ export const Heading = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-    max-width: 440px;
+
+// transition: box-shadow 300ms ease-in-out, transform 200ms ease-in-out 0s;
+
+
+    max-width: 540px;
+    background-color: #382314;
     margin-bottom: 35px;
     font-size: 1.3rem;
     line-height: 1.7;
     font-weight: 800;
-    color: #010606;
-    transition: all 0.1s ease-in-out;
+    color: #fff;
     padding: 10px;
+    position: relative;
+    
+    top: 0;
+    left: 0;
+    box-shadow: rgba(218, 94, 4, 0.4) 0px 0px, 
+                rgba(218, 94, 4, 0.3) 0px 0px, 
+                rgba(218, 94, 4, 0.2) 0px 0px, 
+                rgba(218, 94, 4, 0.1) 0px 0px, 
+                rgba(218, 94, 4, 0.05) 0px 0px;
+    transition: all ease-in-out 2s;
+    
 
     &:hover{
-        border-radius: 20px;
-        border: none;
-        background-color: #bbc089;
-        transform: scale(1.1);
-        box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-        transition: all 0.1s ease-in-out;
+        top: -20px;
+        left: 20px;
+        box-shadow: rgba(218, 94, 4, 0.4) -5px 5px, 
+                    rgba(218, 94, 4, 0.3) -10px 10px, 
+                    rgba(218, 94, 4, 0.2) -15px 15px, 
+                    rgba(218, 94, 4, 0.1) -20px 20px, 
+                    rgba(218, 94, 4, 0.05) -25px 25px;
+        transition: all ease-in-out 2s;
     }
 `;
-
 
 
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
+    // width: 100%;
     position: relative;
-    top: -100px;
+    top: 50px;
 
 
 `;

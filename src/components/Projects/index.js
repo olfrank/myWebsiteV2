@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import AOS from 'aos';
 // import '../Education/node_modules/aos/dist/aos.css';
 import Img1 from '../../image/funkyFelines.png'
@@ -37,7 +37,7 @@ import { ProjectsContainer,
          ModalTitleSection } from './ProjectsElements';
 
 const Projects = () => {
-
+    
     
     const [modal1, setModal1] = useState(false);
     const [modal2, setModal2] = useState(false);
@@ -49,6 +49,16 @@ const Projects = () => {
     const [block, setBlock] = useState(true);
     const [other, setOther] = useState(false);
     // const [active, setActive] = useState(false);
+
+    // const [offsetY, setOffsetY] = useState(0);
+
+    // const handleScroll = () => setOffsetY(window.pageYOffset);
+  
+    // useEffect(() => {
+    //   window.addEventListener("scroll", handleScroll);
+  
+    //   return () => window.removeEventListener("scroll", handleScroll);
+    // }, []);
 
 
       
@@ -115,10 +125,9 @@ const Projects = () => {
         easin: 'ease'
     })
     return (
-            <ProjectsContainer id = 'projects' >
-                 
-                <ProjectsH1>projects</ProjectsH1>
-                <ProjectsSub>(more on my github)</ProjectsSub>
+            <ProjectsContainer  id = 'projects' >
+                <ProjectsH1>02.projects...</ProjectsH1>
+                <ProjectsSub> more_on_my_github </ProjectsSub>
                 <BlockSwitch onClick={blockSwitch}>
                     <Icon1 />2021-2022
                 </BlockSwitch>
@@ -240,8 +249,9 @@ const Projects = () => {
                         </ProjectsCard>
                     </ProjectCardWrapper>
                 </ProjectsWrapper>
+                
                 : null}
-
+                
                 { modal1 ?
                     <Modal className="modal">
                         <ModalContainer className="modal-container">
@@ -565,6 +575,7 @@ const Projects = () => {
                         </ModalContainer>
                     </Modal>
                 : null}
+                
             </ProjectsContainer>
     )
 }

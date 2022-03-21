@@ -11,12 +11,14 @@ padding: 0;
 /* font-family: "Encode Sans Explanded", sans-serif; */
 
 font-family: 'Cutive Mono', monospace;
+/* font-family: 'Inconsolata',monospace; */
 /* font-family: 'courier-std', monospace; */
 /* font-family: 'Victor Mono'; */
 }
 
 mark{
-    background-color: #93b9ae;
+    /* background-color: #93b9ae; */
+    background-color: #f6b382;
 }
 li{
     margin-top: 10px;

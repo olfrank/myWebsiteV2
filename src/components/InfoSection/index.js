@@ -3,7 +3,7 @@ import AOS from 'aos';
 // import '../Education/node_modules/aos/dist/aos.css';
 //import { Button } from '../ButtonElement'
 import LottieAnimation from '../../Lottie'
-import aboutme from '../../animation/about-me.json'
+import aboutme from '../../animation/coding.json'
 // import img2 from '../../svg/Succes/Succes.svg'
 
 import {InfoContainer, 
@@ -34,7 +34,7 @@ const InfoSection = () => {
                     <InfoRow >
                         <Column1>
                         <TextWrapper>
-                            <TopLine data-aos="flip-up">about me...</TopLine>
+                            <TopLine data-aos="flip-up">01.about me...</TopLine>
 
                             <Heading data-aos="flip-up" >I am Ollie, a Solidity/Web3 developer from London 
                                                          with a growing fascination for blockchain technology 
@@ -63,7 +63,7 @@ const InfoSection = () => {
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <LottieAnimation lotti={aboutme} />
+                                <LottieAnimation lotti={aboutme} width={"900px"}/>
                                 {/* <Img data-aos="flip-up" src={img2}/> */}
                             </ImgWrap>
                         </Column2>

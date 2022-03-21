@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
     color: #fff;
-    background: #101522;
-    background: #5b6685;
-    background: #5b8579;
-    background: #192619;
+    
+    // background: #192619;
+    background: #191919;
+    overflow: hidden;
     @media screen and (max-width: 768px){
         padding:100px 0;
     }
@@ -35,21 +35,25 @@ export const InfoRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-    margin-bottom: 15px;
+    // margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
+    width: 120%;
+    @media screen and(min-width: 768px){
+        width:50%;
+    }
 `;
 
 export const Column2 = styled.div`
-    margin-bottom: 15px;
+    // margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
 `;
 
 export const TextWrapper = styled.div`
-    max-width: 540px;
+    max-width: 840px;
     padding-top: 0;
-    padding-bottom: 60px;
+    // padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`

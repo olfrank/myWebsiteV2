@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../../image/rainbow.JPG';
+import img from '../../image/ferns.jpeg';
 import {FaHandPointRight} from 'react-icons/fa';
 import {FaHandPointLeft} from 'react-icons/fa';
 
@@ -8,23 +8,30 @@ import {FaHandPointLeft} from 'react-icons/fa';
 
 export const ProjectsContainer = styled.div`
     height: 1100px;
-    // width: 100%;
-    // height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #FF9C55;
-   
+    background: #222;
     
-    //background-image: linear-gradient(#FF9C55, #FFD913);
-    //#101606;
+    overflow: hidden;
     background-image: url(${img});
     background-attachment: fixed;
     background-size: cover;
-    background-position: left;
+    background-position: center;
     // -o-object-fit: cover;
     // object-fit: cover;
+
+    // height: 160vh;
+    // background-image: url(${img}); 
+    // background-repeat: no-repeat;
+    // background-position: top;
+    // background-size: cover;
+    // overflow: hidden;
+    // background-attachment: fixed;
+    // position: relative
+    // width: 100%;
     
     @media screen and(max-width: 768px){
         height: 1100px;
@@ -37,71 +44,87 @@ export const ProjectsContainer = styled.div`
     
 `;
 
+// export const ProjectBg = styled.div`
+// display: flex;
+// justify-content: center;
+//     height: 1100px;
+//     background-image: url(${img}); 
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: cover;
+//     overflow: hidden;
+//     position: relative;
+//     width: 100%;
+//     z-index: 1;
+// `;
+
 
 export const ProjectsH1 = styled.h1`
-    font-size: 5rem;
-    color: #000;
-    margin: auto;
+    
+
+    margin-left: 24%;
     margin-top: 80px;
     margin-bottom: 10px;
-    font-weight: 800;
-    text-shadow: 4px 4px 9px black;
+    color: #e06c15;
+    font-size: 40px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
 
     @media (max-width: 480px){
         font-size: 2rem;
     }
+    
 `;
 
 export const ProjectsSub = styled.h3`
-    color: #222;
-    font-size: 1.5rem;
+    color: #d8d5d5;
+    margin-left: 24%;
     //margin-bottom: 90px;
     margin-top: 10px;
+    font-size: 25px;
+    line-height: 16px;
+    font-weight: 700;
 `;
 
-export const BlockSwitch = styled.button`
-    font-size: 2rem;
-    color: #000;
-    
+export const BlockSwitch = styled.div`
+    font-size: 25px;
+    color: #d8d5d5;
     border: none;
+    margin-left: 24%;
     background: rgba(49, 48, 48, 0);
     transition: all 0.2s ease-in-out;
+    display: flex;
+
     &:hover{
         color: #ffd913;
         transform: scale(1.1);
     }
-
-    &.active{
-        color: #1FC11B;
-    }
 `;
 
-export const OtherSwitch = styled.button`
-    font-size: 2rem;
-    color: #000;
-    
+export const OtherSwitch = styled.div`
+    font-size: 25px;
+    color: #d8d5d5;
     border: none;
+    margin-left: 24%;
     background: rgba(49, 48, 48, 0);
     transition: all 0.2s ease-in-out;
-    margin-bottom: 20px; 
+    display: flex;
+    
     &:hover{
         color: #ffd913;
         transform: scale(1.1);
-    }
-
-    &.active{
-        color: #1FC11B;
     }
 `;
 
 export const Icon1 = styled(FaHandPointRight)`
-font-size: 2rem;
-// color: orange;
+    font-size: 25px;
+    // color: orange;
 `;
 
 export const Icon2 = styled(FaHandPointLeft)`
-font-size: 2rem;
-// color: orange;
+    font-size: 25px;
+    // color: orange;
 `;
 
 
@@ -130,7 +153,7 @@ export const ProjectCardWrapper = styled.div`
     transition: all 0.4s ease-in-out;
 
     &:hover {
-        transform: scale(1.1);
+        transform: scale(1.07);
         transition: all 0.4s ease-in-out;
         cursor: pointer;
     }
@@ -143,9 +166,9 @@ export const ProjectsCard = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border-radius: 10px;
+    // border-radius: 10px;
     max-height: 700px;
-    padding: 5px;
+    padding: 1px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     position:relative;
     
@@ -159,7 +182,7 @@ export const ProjectsIcon = styled.img`
     width: 100%;
     margin-bottom: 30px;
     object-fit: cover;
-    border-radius: 9px;
+    // border-radius: 9px;
     position: relative;
     z-index: 1;
 `;
@@ -169,7 +192,7 @@ export const ProjectsIconWIP = styled.img`
     width: 100%;
     margin-bottom: 5px;
     object-fit: cover;
-    border-radius: 9px;
+    // border-radius: 9px;
 `;
 
 export const LanguagesP = styled.p`
@@ -179,11 +202,9 @@ export const LanguagesP = styled.p`
     
     text-align: center;
     border: none;
-    border-radius: 5px;
+    //border-radius: 5px;
     margin-top: 15px;
     font-weight: 800;
-//    background-color: #1ec11b3d;
-    // background-color: #9171a04f;
     background-color: #372a2ac7;
     
 `;

@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 //import { Button } from '../ButtonElement'
 // import img from '../../svg/Vision/Vision.svg'
 import LottieAnimation from '../../Lottie'
-import education from '../../animation/animation-edu.json'
+import education from '../../animation/waves1.json'
 
 import {EducationContainer, 
         EducationWrapper, 
@@ -60,7 +60,7 @@ const Education = () => {
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                            <LottieAnimation lotti={education} />
+                            <LottieAnimation lotti={education} width={"1000px"} height= {'1000px'}/>
                                 {/* <Img data-aos="flip-up" src={img}/> */}
                             </ImgWrap>
                         </Column2>
