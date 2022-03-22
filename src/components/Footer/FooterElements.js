@@ -3,8 +3,7 @@ import { Link as LinkScroll } from 'react-scroll';
 
 
 export const FooterContainer = styled.div`
-    // background-color: #101522;
-    background-color: #172036;
+    background-color: #151516;
 
 `
 

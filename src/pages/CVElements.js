@@ -5,15 +5,14 @@ import { Link as LinkRouter } from 'react-router-dom';
 
 
 export const CVPageWrapper = styled.div`
-width: 60%;
+width: 70%;
 height: 100%;
 margin: auto;
 align-items: center;
 position relative;
-// background: #d1d6a1;
-background: #b4c1a0;
+background: #e1d3b4;
 border-radius: 5px;
-padding: 25px;
+padding: 12%;
 margin-bottom: 3rem;
 
 `;
@@ -164,7 +163,7 @@ export const BackHome = styled(LinkRouter)`
 
 export const BackArrow = styled(TiArrowLeftThick)`
     font-size: 60px;
-    color: rgb(95, 230, 212);
+    color: #fff;
     cursor: pointer;
     animation-name: side;
     animation-duration: 3s;
@@ -178,7 +177,7 @@ export const BackArrow = styled(TiArrowLeftThick)`
     }
 
     &:hover{
-        color: #1FC11B;
+        color: #db6813;
     }
 `;
 
@@ -219,17 +218,19 @@ export const DownloadButton = styled.button`
     border: none;
     border-radius: 10px;
     background: #555;
-    color: #fff;
+    color: #f6b382;
     padding: 15px;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: 900;
     transition: all 0.3s ease-in-out;
     
 
     &:hover{
-        background: #fff;
+        background: #222;
         color: #555;
-        box-shadow: 0px 0px 10px 5px rgba(104, 124, 81, 0.911);
+        transform: scale(1.01);
+        box-shadow: 0px 0px 10px 2px #f6b382;
         
         
     }
@@ -240,17 +241,19 @@ export const ViewCVButton = styled.button`
     border: none;
     border-radius: 10px;
     background: #555;
-    color: #fff;
+    color: #f6b382;
     padding: 10px;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: 900;
     transition: all 0.3s ease-in-out;
     
 
     &:hover{
-        background: #fff;
-        color: #000;
-        box-shadow: 0px 0px 10px 5px rgba(104, 124, 81, 0.911);
+        background: #222;
+        color: #f6b382;
+        transform: scale(1.01);
+        box-shadow: 0px 0px 10px 2px #f6b382;
         
 
     }

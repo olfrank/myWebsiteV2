@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {BsArrowDownShort} from 'react-icons/bs';
+// import {BsArrowDownShort} from 'react-icons/bs';
 import { IoMailOutline} from 'react-icons/io5';
 import { TiArrowLeftThick } from 'react-icons/ti';
 import { Link as LinkRouter } from 'react-router-dom';

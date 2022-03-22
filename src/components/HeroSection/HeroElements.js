@@ -68,8 +68,8 @@ export const HeroBtnWrapper = styled(LinkRouter)`
 `;
 
 export const Button = styled.button`
-    border-radius: 50px;
-    background: #e06c15;
+    border-radius: 5px;
+    background: #db6813;
     white-space: nowrap;
     padding: 12px 30px;
     color: #010606;
@@ -80,10 +80,19 @@ export const Button = styled.button`
     display: flex;
     justify-content: center;
     align-itmes: center;
+    box-shadow: 0px, 0px;
+    transition: all ease-in-out 0.4s;
+    
 
-    $:hover{
+    &:hover{
         background: #000;
+        transform: translate(0px, -5px);
         color: #fff;
+        box-shadow: rgba(219, 104, 19, 0.4) 0px 5px, 
+                    rgba(219, 104, 19, 0.3) 0px 10px, 
+                    rgba(219, 104, 19, 0.2) 0px 15px, 
+                    rgba(219, 104, 19, 0.1) 0px 20px, 
+                    rgba(219, 104, 19, 0.05) 0px 25px;
     }
 `
 
@@ -104,7 +113,7 @@ export const HeroH1 = styled.h1`
 
 export const HeroP = styled.p`
     color: #fff;
-    margin-top: 24px;
+    margin-top: 10px;
     font-size: 24px;
     text-align: center;
     max-width: 600px;

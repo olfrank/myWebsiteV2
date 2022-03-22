@@ -3,13 +3,13 @@ import { Link as LinkRouter } from 'react-router-dom';
 import { Link as LinkScroll } from 'react-scroll';
 
 export const Nav = styled.nav`
-    background: ${({scrollNav})=>(scrollNav ? '#101522' : 'transparent')};
+    background: ${({scrollNav})=>(scrollNav ? '#151516' : 'transparent')};
     height: 80px;
     margin-top: -80px;
     display: flex;
     justif-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 20px;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -86,16 +86,16 @@ export const NavLinks = styled(LinkScroll)`
     padding: 0 1rem;
     height: 86%;
     cursor: pointer;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 900;
 
     &:hover{
-        color: #FFD913;
+        color: #e9b34e;
     }
 
      &.active { //scrolling will underline the associated navbar link 
         border-bottom: 6px solid #e06c15;
-        color: #FFD913;
+        color: #e9b34e;
         font-weight: 900;
     }
 `;
@@ -113,7 +113,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkRouter)`
     border-radius: 50px;
-    background: #FFD913;
+    background: #e9b34e;
     white-space: nowrap;
     padding: 10px 22px;
     color: #010606;

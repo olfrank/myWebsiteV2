@@ -36,14 +36,16 @@ const InfoSection = () => {
                         <TextWrapper>
                             <TopLine data-aos="flip-up">01.about me...</TopLine>
 
-                            <Heading data-aos="flip-up" >I am Ollie, a Solidity/Web3 developer from London 
+                            <Heading data-aos="flip-up" >I'm Ollie, a blockchain developer from London 
                                                          with a growing fascination for blockchain technology 
-                                                         and its potential.</Heading>
+                                                         and its potential.
+                            </Heading>
 
                             <Subtitle data-aos="flip-up" >After coming across blockchain in 2020, an insatiable 
                                                           curiosity and interest began to develop. Ever since I 
                                                           have been eager to be a part of the industry and contribute 
-                                                          to its growth.</Subtitle>
+                                                          to its growth.
+                            </Subtitle>
                             
                             {/* <BtnWrap>
                                 <Button 

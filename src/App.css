@@ -127,7 +127,7 @@ transition: opacity 500ms linear 250ms;
 
   .button-pdf{
     text-decoration: none;
-    color:rgb(102, 185, 99);
+    color:#f6b382;
     font-weight: 900;
     font-size: 1.05rem;
   }

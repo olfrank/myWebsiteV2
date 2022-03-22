@@ -84,11 +84,7 @@ export const Heading = styled.h1`
     }
 `;
 
-export const Subtitle = styled.p`
-
-// transition: box-shadow 300ms ease-in-out, transform 200ms ease-in-out 0s;
-
-
+export const Subtitle = styled.div`
     max-width: 540px;
     background-color: #382314;
     margin-bottom: 35px;
@@ -97,19 +93,23 @@ export const Subtitle = styled.p`
     font-weight: 800;
     color: #fff;
     padding: 10px;
-    position: relative;
-    box-shadow: 0px 0px,
+    // position: relative;
     transition: all ease-in-out 2s;
-
-    &:hover{
-        transition: all ease-in-out 2s;
-        transform: translate(10px, -10px);
-        box-shadow: rgba(218, 94, 4, 0.4) -5px 5px, 
+    box-shadow: rgba(218, 94, 4, 0.4) -5px 5px, 
                     rgba(218, 94, 4, 0.3) -10px 10px, 
                     rgba(218, 94, 4, 0.2) -15px 15px, 
                     rgba(218, 94, 4, 0.1) -20px 20px, 
                     rgba(218, 94, 4, 0.05) -25px 25px;
+
+    &:hover{
+        transition: all ease-in-out 2s;
         
+        box-shadow: rgba(218, 94, 4, 0.4) -0px 0px, 
+                    rgba(218, 94, 4, 0.3) -0px 0px, 
+                    rgba(218, 94, 4, 0.2) -0px 0px, 
+                    rgba(218, 94, 4, 0.1) -0px 0px, 
+                    rgba(218, 94, 4, 0.05) -0px 0px;
+        transform: translate(-10px, 10px);
     }
 `;
 

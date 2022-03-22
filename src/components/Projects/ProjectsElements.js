@@ -131,8 +131,8 @@ export const Icon2 = styled(FaHandPointLeft)`
 
 export const ProjectsWrapper = styled.div`
     // max-width: 1000px;
-    width: 70%;
-    height: 70%;
+    width: 95%;
+    height: 75%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

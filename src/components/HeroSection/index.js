@@ -33,7 +33,7 @@ const HeroSection = () => {
             <HeroContent>
                 <Typist cursor={{ show: false }}>
                     <HeroH1>oliver</HeroH1>
-                    <HeroP>solidity/web3 developer </HeroP>
+                    <HeroP>full stack blockchain developer </HeroP>
                 </Typist>
                 <HeroBtnWrapper to="/cv">
                     <Button onMouseEnter={onHover} onMouseLeave={onHover} >
