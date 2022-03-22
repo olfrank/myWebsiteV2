@@ -13,12 +13,13 @@ position relative;
 background: #e1d3b4;
 border-radius: 5px;
 padding: 12%;
+padding-top: 5%;
 margin-bottom: 3rem;
 
 `;
 export const Header = styled.div`
     text-align: center;
-    margin-top: 10px;
+    margin-top: 10%;
     position: relative;
     line-height: 1.5;
     font-weight: 900;
