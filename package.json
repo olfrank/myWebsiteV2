@@ -2,7 +2,7 @@
   "name": "my-website-v2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ollie-francis.co.uk",
+  "homepage": "https://ollie-francis.co.uk",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
