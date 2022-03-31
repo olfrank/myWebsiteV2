@@ -15,6 +15,7 @@ import uni from '../../allCertificates/uni.jpg';
 import dofe from '../../allCertificates/dofe.jpg';
 
 import udemy from '../../allCertificates/udemy.jpeg'
+import duke from '../../allCertificates/DukeDeFi.png'
 import cert1 from '../../allCertificates/cert02.png';
 import cert2 from '../../allCertificates/cert08.png';
 import cert3 from '../../allCertificates/cert-12.png';
@@ -84,6 +85,9 @@ const Certificates = () => {
             }} >
                 <SwiperSlide> 
                     <img src={udacity} alt="certificate" className="certificate-img"/>
+                </SwiperSlide>
+                <SwiperSlide> 
+                    <img src={duke} alt="certificate" className="certificate-img"/>
                 </SwiperSlide>
                 <SwiperSlide> 
                     <img src={udemy} alt="certificate" className="certificate-img"/>
