@@ -29,7 +29,7 @@ export const VideoBg = styled.video`
 export const NameField = styled.div`
     margin: 10px;
     font-size: 20px;
-    color: #FF5555;
+    color: #000;
     height: 42px;
     
     @media (max-width: 480px){
@@ -39,7 +39,7 @@ export const NameField = styled.div`
 `;
 export const EmailField= styled.div`
     margin: 10px;
-    color: #FF9C55;
+    color: #000;
     font-size: 20px;
     @media (max-width: 480px){
         font-size: 15px;
@@ -48,7 +48,7 @@ export const EmailField= styled.div`
 `;
 export const SubjectField= styled.div`
     margin: 10px;
-    color: rgb(20, 189, 152);
+    color: #000;
     font-size: 20px;
     @media (max-width: 480px){
         font-size: 15px;
@@ -58,7 +58,7 @@ export const SubjectField= styled.div`
 export const MessageField= styled.div`
     margin: 10px;
     
-    color: #FFD913;
+    color: #000;
     font-size: 20px;
     @media (max-width: 480px){
         font-size: 15px;
@@ -69,11 +69,11 @@ export const MessageField= styled.div`
 export const Button = styled.button`
     border-radius: 4px;  
     font-size:  20px;
-    color: black;
+    color: #fdecc9;
     cursor: pointer;
     
 
-    background: rgb(145, 201, 42);
+    background: rgba(75, 51, 51);
     border: none;
     border-radius: 25px;
     z-index: 1;
@@ -127,7 +127,7 @@ export const ResetBtn = styled.button`
     padding: 10px;
     color: black;
     cursor: pointer;
-    background: pink;
+    background: #886458;
     border: none;
     position: sticky;
     align-items: center;
@@ -151,7 +151,7 @@ export const Header = styled.h1`
     margin-bottom: -30px;
     margin-top: 40px;
  
-    color: #e06c15;
+    color: #fdecc9;
     font-size: 35px;
     line-height: 16px;
     font-weight: 700;
@@ -218,7 +218,7 @@ export const MailIcon = styled(IoMailOutline)`
     font-size: 70px;
     margin-top: 0;
     margin-bottom: 0;
-    color: #fff;
+    color: rgba(75, 51, 51);
 
 `;
 

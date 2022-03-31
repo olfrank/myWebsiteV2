@@ -2,22 +2,28 @@ body{
   background-color: black;
 }
 .container {
-background-color: var(--primary);
+/* background-color: var(--primary); */
+background-color: #fdecc9;
 display: flex;
 padding: 40px;
 max-width: 40vw;
 /* min-height: 90px; */
 justify-content: center;
 align-self: center;
-border: 3px solid var(--primary);
+/* border: 3px solid var(--primary); */
+border: 3px solid #fdecc9;
 padding: 0;
 margin-top: 10%;
 margin-bottom: 10%;
 
-box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
+/* box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
             20px -20px 0 -3px var(--background), 20px -20px var(--yellow), 
             30px -30px 0 -3px var(--background), 30px -30px var(--orange), 
-            40px -40px 0 -3px var(--background), 40px -40px var(--red); 
+            40px -40px 0 -3px var(--background), 40px -40px var(--red); */
+box-shadow: 10px -10px 0 -3px var(--background),10px -10px #c0907880,
+            20px -20px 0 -3px var(--background),20px -20px #483030d6,
+            30px -30px 0 -3px var(--background),30px -30px #604830bd,
+            40px -40px 0 -3px var(--background),40px -40px #392c1eb8; 
 transition: box-shadow 1s, top 1s, left 1s;
 position: relative;
 top: 0;
@@ -25,6 +31,7 @@ left: 0;
 cursor: pointer;
 color: white;
 font-size: 1.2rem;
+
 
 }
 
@@ -82,3 +89,13 @@ font-weight: 900;
   }
 }
 
+/* #ffe3c0 */
+/* #fdecc9 */
+/*  */
+/*   */
+/*   */
+
+
+/* box-shadow: 10px -10px 0 -3px var(--background),10px -10px #c09078,20px -20px 0 -3px var(--background),20px -20px #483030,30px -30px 0 -3px var(--background),30px -30px #604830,40px -40px 0 -3px var(--background),40px -40px #392c1e; */
+
+/* box-shadow: 10px -10px 0 -3px var(--background),10px -10px #c09078ad,20px -20px 0 -3px var(--background),20px -20px #483030d6,30px -30px 0 -3px var(--background),30px -30px #604830bd,40px -40px 0 -3px var(--background),40px -40px #392c1eb8; */

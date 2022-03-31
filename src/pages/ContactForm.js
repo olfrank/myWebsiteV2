@@ -41,6 +41,7 @@ const ContactForm = () =>{
 
 
 
+
   /******** js to connect server.js (Node.js) to ContactForm page (Github Pages does not support server side technology so i opted for EmailJS instead)******** */
     // const [status, setStatus] = useState("Submit");
     // const handleSubmit = async (e) => {
@@ -105,7 +106,7 @@ const ContactForm = () =>{
               <ResetBtn  type="reset" ><ResetArrow/></ResetBtn>
             </form>
           </div>
-          <Footer />
+          <Footer/>
       </div>
       
     );

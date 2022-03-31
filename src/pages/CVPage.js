@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../App.css';
 import Footer from '../components/Footer';
-import CVPicture from '../image/CV.png';
+import CVPicture from '../image/cvScreenshot.png';
 import CVpdf from '../image/Oliver_Francis_CV_BlockchainDev_2022.pdf';
 
 import {CVPageWrapper,

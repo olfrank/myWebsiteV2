@@ -6,7 +6,7 @@ import Img2 from '../../image/dex.png'
 import Img3 from '../../image/coin-tracker.png'
 import Img4 from '../../image/capstone.png'
 import Img5 from '../../image/flightSurety.png'
-import Img6 from '../../image/authWines.png'
+import Img6 from '../../image/authenticWines.png'
 import { CgWebsite } from 'react-icons/cg';
 import { FaGithub } from 'react-icons/fa';
 
