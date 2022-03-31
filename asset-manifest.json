@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.4cc8caa0.chunk.css",
-    "main.js": "/static/js/main.c8eccf7c.chunk.js",
-    "main.js.map": "/static/js/main.c8eccf7c.chunk.js.map",
+    "main.css": "/static/css/main.98d24e45.chunk.css",
+    "main.js": "/static/js/main.a54f4d02.chunk.js",
+    "main.js.map": "/static/js/main.a54f4d02.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.81fce370.js",
     "runtime-main.js.map": "/static/js/runtime-main.81fce370.js.map",
     "static/css/2.6bf1a4d6.chunk.css": "/static/css/2.6bf1a4d6.chunk.css",
@@ -10,12 +10,12 @@
     "static/js/2.0d71c156.chunk.js.map": "/static/js/2.0d71c156.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.6bf1a4d6.chunk.css.map": "/static/css/2.6bf1a4d6.chunk.css.map",
-    "static/css/main.4cc8caa0.chunk.css.map": "/static/css/main.4cc8caa0.chunk.css.map",
+    "static/css/main.98d24e45.chunk.css.map": "/static/css/main.98d24e45.chunk.css.map",
     "static/js/2.0d71c156.chunk.js.LICENSE.txt": "/static/js/2.0d71c156.chunk.js.LICENSE.txt",
-    "static/media/CV.c045e090.png": "/static/media/CV.c045e090.png",
-    "static/media/Oliver_Francis_CV_BlockchainDev_2022.ad1c23f8.pdf": "/static/media/Oliver_Francis_CV_BlockchainDev_2022.ad1c23f8.pdf",
+    "static/media/01_Oliver_Francis_Blockchain_Developer_CV.ffce93bd.pdf": "/static/media/01_Oliver_Francis_Blockchain_Developer_CV.ffce93bd.pdf",
+    "static/media/DukeDeFi.4dcf7fd1.png": "/static/media/DukeDeFi.4dcf7fd1.png",
     "static/media/StarsBg.7b72348d.mp4": "/static/media/StarsBg.7b72348d.mp4",
-    "static/media/authWines.1fb25b4d.png": "/static/media/authWines.1fb25b4d.png",
+    "static/media/authenticWines.99423144.png": "/static/media/authenticWines.99423144.png",
     "static/media/capstone.31b6abc9.png": "/static/media/capstone.31b6abc9.png",
     "static/media/cert-10.5adc16e6.png": "/static/media/cert-10.5adc16e6.png",
     "static/media/cert-11.cbb962e5.png": "/static/media/cert-11.cbb962e5.png",
@@ -33,6 +33,7 @@
     "static/media/cert08.bd55a2fa.png": "/static/media/cert08.bd55a2fa.png",
     "static/media/cert09.64424486.png": "/static/media/cert09.64424486.png",
     "static/media/coin-tracker.a78df9b7.png": "/static/media/coin-tracker.a78df9b7.png",
+    "static/media/cvScreenshot.a24f180e.png": "/static/media/cvScreenshot.a24f180e.png",
     "static/media/dex.369ad960.png": "/static/media/dex.369ad960.png",
     "static/media/dofe.e5dbfb52.jpg": "/static/media/dofe.e5dbfb52.jpg",
     "static/media/ferns.8ec130e5.jpeg": "/static/media/ferns.8ec130e5.jpeg",
@@ -47,7 +48,7 @@
     "static/js/runtime-main.81fce370.js",
     "static/css/2.6bf1a4d6.chunk.css",
     "static/js/2.0d71c156.chunk.js",
-    "static/css/main.4cc8caa0.chunk.css",
-    "static/js/main.c8eccf7c.chunk.js"
+    "static/css/main.98d24e45.chunk.css",
+    "static/js/main.a54f4d02.chunk.js"
   ]
 }
